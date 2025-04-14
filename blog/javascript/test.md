@@ -4,8 +4,7 @@ menu_order: 1
 post_status: publish
 taxonomy:
   category:
-    - blog
-      - javascript
+    - blog/javascript
   post_tag:
     - javascript
 ---
