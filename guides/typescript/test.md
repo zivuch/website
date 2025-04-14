@@ -5,7 +5,7 @@ menu_order: 1
 post_status: publish
 taxonomy:
     category:
-        - typescript
+        - guides/typescript
     post_tag:
         - typescript
 
