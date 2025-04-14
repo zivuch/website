@@ -8,7 +8,6 @@ taxonomy:
         - typescript
     post_tag:
         - typescript
-
 ---
 
 ## My post content

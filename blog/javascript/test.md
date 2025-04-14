@@ -9,7 +9,6 @@ taxonomy:
     post_tag:
         - javascript
 
-
 ---
 
 ## My post content
