@@ -1,13 +1,13 @@
 ---
-
 title: Title of the post
 menu_order: 1
 post_status: publish
 taxonomy:
-    category:
-        - typescript
-    post_tag:
-        - typescript
+  category:
+    - guides
+      - typescript
+  post_tag:
+    - typescript
 ---
 
 ## My post content
@@ -20,7 +20,7 @@ Nunc sodales massa enim, nec consectetur orci tempus ac.
 ![alt text for the image](/_images/pic4.jpg "Caption for the image")
 
 Nam rutrum ultricies sapien id rhoncus. In pellentesque efficitur suscipit.
-Aliquam vel est consectetur lectus malesuada mollis sit amet non neque. 
+Aliquam vel est consectetur lectus malesuada mollis sit amet non neque.
 
 ### Section with link
 
