@@ -86,8 +86,8 @@ Here's a simplified way to think about specificity:
 
 **Example:**
 
-```
-<div id="my-div" class="container">
+```html
+<div id="my-div" class="my-container">
   <p class="text">This is some text.</p>
 </div>
 ```
@@ -97,7 +97,7 @@ div {
   color: blue; /* Least specific */
 }
 
-.container .text {
+.my-container .text {
   color: green; /* More specific */
 }
 
