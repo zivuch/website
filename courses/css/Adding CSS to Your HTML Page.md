@@ -1,6 +1,10 @@
 ---
 title: Adding CSS to Your HTML Page
 menu_order: 3
+output:
+  html_document:
+    toc: true
+    toc_float: true
 post_status: publish
 taxonomy:
   category:
@@ -9,7 +13,9 @@ taxonomy:
     - courses
 ---
 
-## On this lesson
+[TOC]
+
+## On this page
 
 - [Getting Started: Linking CSS](#getting-started-linking-css)
 - [Method 1: The Power of the `<link>` Tag](#method-1-the-link-tag)
