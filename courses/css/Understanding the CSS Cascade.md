@@ -74,7 +74,7 @@ This also applies to how you include your CSS:
 
 **Important Note:** The `!important` rule (which we'll discuss later) can override this order.
 
-### Specificity: How Selectors Compete \<a id="specificity"\>\</a\>
+### Specificity: How Selectors Compete <a id="specificity"></a>
 
 Specificity is a way of weighting CSS selectors to determine which rule is more precise and therefore should be applied. Some selectors are more specific than others.
 
@@ -114,7 +114,7 @@ In this case, the paragraph element (`<p class="text">`) will have **orange** te
 
 We'll have a dedicated lesson on specificity later because it's a crucial part of understanding how CSS works\!
 
-### Origin: Where Styles Come From \<a id="origin"\>\</a\>
+### Origin: Where Styles Come From <a id="origin"></a>
 
 The origin of CSS rules also plays a role in the cascade. CSS rules can come from different sources:
 
@@ -130,7 +130,7 @@ The origin of CSS rules also plays a role in the cascade. CSS rules can come fro
 
 This means that your CSS (author styles) will generally override the browser's default styles (user agent styles), and user styles will override author styles, except when using `!important`.
 
-### Importance: The `!important` Rule \<a id="importance"\>\</a\>
+### Importance: The `!important` Rule <a id="importance"></a>
 
 The `!important` rule is a way to give a CSS declaration higher priority in the cascade. It essentially says, "This style is very important, and it should override any other conflicting styles."
 
@@ -148,9 +148,9 @@ button {
 
 Even though the `color: blue;` rule comes later, the button's text will be **red** because of the `!important` declaration.
 
-**Use `!important` sparingly\!** Overusing it can make your CSS harder to understand and maintain, as it breaks the normal cascade flow. It's generally best to rely on specificity and order to control your styles.
+**Use `!important` sparingly!** Overusing it can make your CSS harder to understand and maintain, as it breaks the normal cascade flow. It's generally best to rely on specificity and order to control your styles.
 
-## Putting it All Together \<a id="putting-it-all-together"\>\</a\>
+## Putting it All Together <a id="putting-it-all-together"></a>
 
 When the browser is trying to determine which style to apply to an element, it goes through the cascade algorithm, considering all the factors we've discussed:
 
@@ -160,7 +160,7 @@ When the browser is trying to determine which style to apply to an element, it g
 4.  If there are still conflicts, it sorts by order of appearance.
 5.  Finally, it considers `!important` declarations, which can override everything else.
 
-## Why the Cascade Matters \<a id="why-the-cascade-matters"\>\</a\>
+## Why the Cascade Matters <a id="why-the-cascade-matters"></a>
 
 Understanding the cascade is essential for writing effective CSS. It helps you:
 
