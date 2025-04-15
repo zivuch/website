@@ -15,7 +15,7 @@ taxonomy:
 
 [TOC]
 
-## On this page
+## On this page123
 
 - [Getting Started: Linking CSS](#getting-started-linking-css)
 - [Method 1: The Power of the `<link>` Tag](#method-1-the-link-tag)
@@ -30,6 +30,8 @@ taxonomy:
   - [Why Inline Styles Aren't Usually the Best Idea](#why-not-inline)
 - [Which Method Should You Choose?](#which-method-to-choose)
 - [Time to Experiment!](#time-to-experiment)
+
+[TOC]
 
 # Adding CSS to Your HTML Page
 
