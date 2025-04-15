@@ -9,21 +9,23 @@ taxonomy:
     - courses
 ---
 
-| On This Page                                                                   |
-| ------------------------------------------------------------------------------ |
-| - [Getting Started: Linking CSS](#getting-started-linking-css)                 |
-| - [Method 1: The Power of the `<link>` Tag](#method-1-the-link-tag)            |
-|   - [Why `<link>` is the Preferred Way](#why-link-preferred)                     |
-|   - [How to Use the `<link>` Tag](#how-to-use-link)                              |
-| - [Method 2: Styling Directly with the `<style>` Tag](#method-2-the-style-tag) |
-|   - [When to Use `<style>`](#when-to-use-style)                                  |
-|   - [How to Use the `<style>` Tag](#how-to-use-style-tag)                        |
-| - [Method 3: Inline Styles - Proceed with Caution!](#method-3-inline-styles)   |
-|   - [Understanding Inline Styles](#understanding-inline-styles)                  |
-|   - [Example of Inline Styles](#example-inline-styles)                           |
-|   - [Why Inline Styles Aren't Usually the Best Idea](#why-not-inline)            |
-| [Which Method Should You Choose?](#which-method-to-choose)                     |
-| [Time to Experiment!](#time-to-experiment)                                     |
+<div class="toc" markdown="1">
+
+- [Getting Started: Linking CSS](#getting-started-linking-css)
+- [Method 1: The Power of the `<link>` Tag](#method-1-the-link-tag)
+  - [Why `<link>` is the Preferred Way](#why-link-preferred)
+  - [How to Use the `<link>` Tag](#how-to-use-link)
+- [Method 2: Styling Directly with the `<style>` Tag](#method-2-the-style-tag)
+  - [When to Use `<style>`](#when-to-use-style)
+  - [How to Use the `<style>` Tag](#how-to-use-style-tag)
+- [Method 3: Inline Styles - Proceed with Caution!](#method-3-inline-styles)
+  - [Understanding Inline Styles](#understanding-inline-styles)
+  - [Example of Inline Styles](#example-inline-styles)
+  - [Why Inline Styles Aren't Usually the Best Idea](#why-not-inline)  
+    -[Which Method Should You Choose?](#which-method-to-choose)
+- [Time to Experiment!](#time-to-experiment)
+
+</div>
 
 # Adding CSS to Your HTML Page
 
