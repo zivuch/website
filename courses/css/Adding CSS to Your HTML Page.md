@@ -9,22 +9,25 @@ taxonomy:
     - courses
 ---
 
-| On This Page                                                                                   |
-|------------------------------------------------------------------------------------------------|
-| [Getting Started: Linking CSS](#getting-started-linking-css)                                 |
-| [Method 1: The Power of the `<link>` Tag](#method-1-the-link-tag)                            |
-| [Why `<link>` is the Preferred Way](#why-link-preferred)                                   |
-| [How to Use the `<link>` Tag](#how-to-use-link)                                            |
-| [Method 2: Styling Directly with the `<style>` Tag](#method-2-the-style-tag)                 |
-| [When to Use `<style>`](#when-to-use-style)                                                |
-| [How to Use the `<style>` Tag](#how-to-use-style-tag)                                      |
-| [Method 3: Inline Styles - Proceed with Caution!](#method-3-inline-styles)                   |
-| [Understanding Inline Styles](#understanding-inline-styles)                                  |
-| [Example of Inline Styles](#example-inline-styles)                                         |
-| [Why Inline Styles Aren't Usually the Best Idea](#why-not-inline)                          |
-| [Which Method Should You Choose?](#which-method-to-choose)                                   |
-| [Time to Experiment!](#time-to-experiment)                                                   |
+ 
 
+| On This Page                                                                 |
+| ---------------------------------------------------------------------------- |
+| [Getting Started: Linking CSS](#getting-started-linking-css)                 |
+| [Method 1: The Power of the `<link>` Tag](#method-1-the-link-tag)            |
+| [Why `<link>` is the Preferred Way](#why-link-preferred)                     |
+| [How to Use the `<link>` Tag](#how-to-use-link)                              |
+| [Method 2: Styling Directly with the `<style>` Tag](#method-2-the-style-tag) |
+| [When to Use `<style>`](#when-to-use-style)                                  |
+| [How to Use the `<style>` Tag](#how-to-use-style-tag)                        |
+| [Method 3: Inline Styles - Proceed with Caution!](#method-3-inline-styles)   |
+| [Understanding Inline Styles](#understanding-inline-styles)                  |
+| [Example of Inline Styles](#example-inline-styles)                           |
+| [Why Inline Styles Aren't Usually the Best Idea](#why-not-inline)            |
+| [Which Method Should You Choose?](#which-method-to-choose)                   |
+| [Time to Experiment!](#time-to-experiment)                                   |
+
+ 
 
 # Adding CSS to Your HTML Page
 
@@ -185,4 +188,3 @@ Using the `<style>` tag within the `<head>` can be useful for small, page-specif
 Now that you know the different ways to add CSS to your HTML, it's time to try them out! Create a simple HTML file and experiment with each of these methods. See how they affect the appearance of your elements.
 
 In the next lesson, we'll start diving into the exciting world of **CSS Selectors** and learn even more powerful ways to target specific HTML elements for styling! Keep up the great work!
-
