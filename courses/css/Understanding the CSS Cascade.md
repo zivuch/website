@@ -87,9 +87,11 @@ Here's a simplified way to think about specificity:
 **Example:**
 
 ```html
+
 <div id="my-div" class="container">
   <p class="text">This is some text</p>
 </div>
+
 ```
 
 ```css
