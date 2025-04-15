@@ -1,4 +1,3 @@
-````markdown
 ---
 title: Mastering CSS Selectors: Targeting Exactly What You Want
 menu_order: 4
