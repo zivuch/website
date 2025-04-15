@@ -22,7 +22,7 @@ taxonomy:
   - [Understanding Inline Styles](#understanding-inline-styles)
   - [Example of Inline Styles](#example-inline-styles)
   - [Why Inline Styles Aren't Usually the Best Idea](#why-not-inline)  
-    -[Which Method Should You Choose?](#which-method-to-choose)
+- [Which Method Should You Choose?](#which-method-to-choose)
 - [Time to Experiment!](#time-to-experiment)
 
 </div>
