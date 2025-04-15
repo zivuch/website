@@ -68,9 +68,9 @@ If these rules are applied to a `<button>` element, the text will be **blue** be
 
 This also applies to how you include your CSS:
 
-- Styles defined in a `<link>` tag that comes later in the ` <head> ` will generally override styles in earlier `<link>` tags.
-- Styles within a `<style>` tag declared later in the `<head>` or even in the `<body>` will generally override styles in `<link>` tags declared earlier in the `<head>`.
-- Inline styles (defined directly in the HTML `style` attribute) generally override styles defined in `<style>` tags or `<link>` tags.
+Styles defined in a `<link>` tag that comes later in the `<head>` will generally override styles in earlier `<link>` tags.
+Styles within a `<style>` tag declared later in the `<head>` or even in the `<body>` will generally override styles in `<link>` tags declared earlier in the `<head>`.
+Inline styles (defined directly in the HTML `style` attribute) generally override styles defined in `<style>` tags or `<link>` tags.
 
 **Important Note:** The `!important` rule (which we'll discuss later) can override this order.
 
