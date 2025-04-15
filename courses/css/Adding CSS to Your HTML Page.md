@@ -1,10 +1,6 @@
 ---
 title: Adding CSS to Your HTML Page
 menu_order: 3
-output:
-  html_document:
-    toc: true
-    toc_float: true
 post_status: publish
 taxonomy:
   category:
@@ -15,7 +11,7 @@ taxonomy:
 
 <div id="toc">
 
-## On This Page
+## On This Page 123
 
 - [Getting Started: Linking CSS](#getting-started-linking-css)
 - [Method 1: The Power of the `<link>` Tag](#method-1-the-link-tag)
@@ -32,6 +28,8 @@ taxonomy:
 - [Time to Experiment!](#time-to-experiment)
 
 </div>
+
+<div id="content">
 
 # Adding CSS to Your HTML Page
 
@@ -192,3 +190,5 @@ Using the `<style>` tag within the `<head>` can be useful for small, page-specif
 Now that you know the different ways to add CSS to your HTML, it's time to try them out! Create a simple HTML file and experiment with each of these methods. See how they affect the appearance of your elements.
 
 In the next lesson, we'll start diving into the exciting world of **CSS Selectors** and learn even more powerful ways to target specific HTML elements for styling! Keep up the great work!
+
+</div>
