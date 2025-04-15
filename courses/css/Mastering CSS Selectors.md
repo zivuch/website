@@ -1,5 +1,5 @@
 ---
-title: Mastering CSS Selectors: Targeting Exactly What You Want
+title: Mastering CSS Selectors
 menu_order: 4
 post_status: publish
 taxonomy:
