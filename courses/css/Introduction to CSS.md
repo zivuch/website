@@ -9,7 +9,28 @@ taxonomy:
     - courses
 ---
 
-## On this Page1
+<div class="toc">
+<h2>On this Page</h2>
+<ul>
+<li><a href="#what-is-css">What is CSS? Let’s Break it Down!</a></li>
+<li><a href="#css-rules">The Core Ingredients: CSS Rules</a>
+<ul>
+<li><a href="#selector">The Selector: Targeting Your HTML</a></li>
+<li><a href="#declaration-block">The Declaration Block: The Styling Instructions</a></li>
+</ul>
+</li>
+<li><a href="#how-css-looks">How CSS Looks in Action: Rule Sets</a></li>
+<li><a href="#important-tidbits">Important Tidbits: Semicolons, Formatting, and Keeping Things Tidy</a>
+<ul>
+<li><a href="#the-mighty-semicolon">The Mighty Semicolon</a></li>
+<li><a href="#formatting-and-indentation">Formatting and Indentation: Making Your Code Human-Friendly</a></li>
+</ul>
+</li>
+<li><a href="#whats-next">What’s Next on Our CSS Adventure?</a></li>
+</ul>
+</div>
+
+## On this Page
 
 - [What is CSS? Let's Break it Down!](#what-is-css)
 - [The Core Ingredients: CSS Rules](#css-rules)
@@ -20,7 +41,6 @@ taxonomy:
   - [The Mighty Semicolon](#the-mighty-semicolon)
   - [Formatting and Indentation: Making Your Code Human-Friendly](#formatting-and-indentation)
 - [What's Next on Our CSS Adventure?](#whats-next)
-
 
 # Introduction to CSS
 
