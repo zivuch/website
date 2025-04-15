@@ -86,15 +86,18 @@ Here's a simplified way to think about specificity:
 
 **Example:**
 
-
-
+```html
+<div id="my-div" class="container">
+  <p class="text">This is some text</p>
+</div>
+```
 
 ```css
 div {
   color: blue; /** Least specific */
 }
 
-.my-container .text {
+.container .text {
   color: green; /** More specific */
 }
 
