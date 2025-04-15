@@ -9,7 +9,7 @@ taxonomy:
     - courses
 ---
 
-| On This Page 123                                                                               |
+| On This Page                                                                                   |
 |------------------------------------------------------------------------------------------------|
 | - [Getting Started: Linking CSS](#getting-started-linking-css)                                 |
 | - [Method 1: The Power of the `<link>` Tag](#method-1-the-link-tag)                            |
