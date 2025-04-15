@@ -64,13 +64,13 @@ button {
 }
 ```
 
-If these rules are applied to a _<button>_ element, the text will be **blue** because the `color: blue;` rule comes later.
+If these rules are applied to a <code>_<button></code> element, the text will be **blue** because the `color: blue;` rule comes later.
 
 This also applies to how you include your CSS:
 
-- Styles defined in a _<link>_ tag that comes later in the _<head>_ will generally override styles in earlier _<link>_ tags.
-- Styles within a _<style>_ tag declared later in the _<head>_ or even in the _<body>_ will generally override styles in _<link>_ tags declared earlier in the _<head>_.
-- Inline styles (defined directly in the HTML `style` attribute) generally override styles defined in _<style>_ tags or _<link>_ tags.
+- Styles defined in a <code>_<link></code> tag that comes later in the <code>_<head></code> will generally override styles in earlier <code>_<link></code> tags.
+- Styles within a <code>_<style></code> tag declared later in the <code>_<head></code> or even in the <code>_<body></code> will generally override styles in <code>_<link></code> tags declared earlier in the <code>_<head></code>.
+- Inline styles (defined directly in the HTML `style` attribute) generally override styles defined in <code>_<style></code> tags or <code>_<link></code> tags.
 
 **Important Note:** The `!important` rule (which we'll discuss later) can override this order.
 
@@ -110,7 +110,7 @@ div {
 }
 ```
 
-In this case, the paragraph element (_<p class="text">_) will have **orange** text because the `#my-div .text` selector is the most specific.
+In this case, the paragraph element (<code>_<p class="text"></code>) will have **orange** text because the `#my-div .text` selector is the most specific.
 
 We'll have a dedicated lesson on specificity later because it's a crucial part of understanding how CSS works\!
 
