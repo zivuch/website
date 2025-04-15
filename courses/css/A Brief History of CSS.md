@@ -9,6 +9,8 @@ taxonomy:
     - courses
 ---
 
+<div class="toc" markdown="1">
+
 ## On this lesson
 
 - [The "Academic" Web and the Need for Style](#the-academic-web)
@@ -21,6 +23,8 @@ taxonomy:
 - [Browser Implementation: A Bit of a Rocky Start](#browser-implementation)
 - [Where We Are Today: A Much Brighter Styling Landscape](#css-today)
 - [Key Takeaway](#key-takeaway)
+
+</div>
 
 # A Quick Look Back: The Story of CSS
 
