@@ -92,21 +92,22 @@ Here's a simplified way to think about specificity:
 </div>
 ```
 
+
 ```css
 div {
-  color: blue; /* Least specific */
+  color: blue; /** Least specific */
 }
 
 .my-container .text {
-  color: green; /* More specific */
+  color: green; /** More specific */
 }
 
 #my-div .text {
-  color: orange; /* Even more specific */
+  color: orange; /** Even more specific */
 }
 
 #my-div {
-  color: red; /* This only affects the div itself */
+  color: red; /** This only affects the div itself */
 }
 ```
 
