@@ -1,23 +1,15 @@
 ---
-title: Courses
+title: CSS
 menu_order: 1
 post_status: publish
 taxonomy:
   category:
-    - javascript
-    - typescript
-    - redux
-    - react
     - css
   post_tag:
-    - javascript
-    - typescript
-    - redux
-    - react
     - css
 ---
 
-## Courses
+## CSS
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a lacinia orci.
 Nunc sodales massa enim, nec consectetur orci tempus ac.

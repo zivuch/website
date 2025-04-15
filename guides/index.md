@@ -1,5 +1,5 @@
 ---
-title: Courses
+title: Guides
 menu_order: 1
 post_status: publish
 taxonomy:
@@ -17,7 +17,7 @@ taxonomy:
     - css
 ---
 
-## Courses
+## Guides
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a lacinia orci.
 Nunc sodales massa enim, nec consectetur orci tempus ac.
