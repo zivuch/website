@@ -13,6 +13,8 @@ taxonomy:
     - courses
 ---
 
+<div id="toc">
+
 ## Table Of Content
 
 - [Getting Started: Linking CSS](#getting-started-linking-css)
@@ -28,6 +30,8 @@ taxonomy:
   - [Why Inline Styles Aren't Usually the Best Idea](#why-not-inline)
 - [Which Method Should You Choose?](#which-method-to-choose)
 - [Time to Experiment!](#time-to-experiment)
+
+</div>
 
 # Adding CSS to Your HTML Page
 
