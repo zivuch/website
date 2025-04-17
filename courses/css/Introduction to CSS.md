@@ -26,6 +26,8 @@ taxonomy:
 
 </div>
 
+<div class="main" markdown="1">
+
 # Introduction to CSS
 
 Hey there, future web designers! 👋 You've already taken the first step by wanting to learn about **CSS**. That's awesome! Think of CSS as the magic wand that lets you take plain HTML and make it look beautiful, organized, and just the way you want it.
@@ -269,3 +271,7 @@ In our next lessons, we'll explore:
 - **Some fundamental CSS properties** that will allow you to change text, colors, and backgrounds.
 
 Keep playing around with the examples and don't be afraid to experiment. The more you practice, the more intuitive CSS will become. Get ready to unleash your creativity and make your web pages shine! ✨
+
+Master the Code, Be the Guru!
+
+</div>
