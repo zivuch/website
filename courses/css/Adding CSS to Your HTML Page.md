@@ -27,6 +27,8 @@ taxonomy:
 
 </div>
 
+<div class="guru-main" markdown="1">
+
 # Adding CSS to Your HTML Page
 
 Alright, you now know what CSS is and the basic structure of CSS rules. The next logical question is: **how do we actually connect our awesome CSS styles to our HTML pages so they can work their magic?**
@@ -78,7 +80,7 @@ To link an external CSS file to your HTML, you use the `<link>` tag within the `
 </html>
 ```
 
-Let's break down the attributes in the `<link>` tag:
+Let's break down the attributes in the `<link>` tag: 
 
 - **`rel="stylesheet"`:** This attribute tells the browser that the linked file is a stylesheet containing CSS rules. It's essential for the browser to understand how to process the file.
 - **`type="text/css"`:** This attribute specifies the type of the linked document. For CSS files, the type is always `text/css`.
@@ -186,3 +188,5 @@ Using the `<style>` tag within the `<head>` can be useful for small, page-specif
 Now that you know the different ways to add CSS to your HTML, it's time to try them out! Create a simple HTML file and experiment with each of these methods. See how they affect the appearance of your elements.
 
 In the next lesson, we'll start diving into the exciting world of **CSS Selectors** and learn even more powerful ways to target specific HTML elements for styling! Keep up the great work!
+
+</div>

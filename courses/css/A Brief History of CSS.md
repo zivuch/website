@@ -26,9 +26,11 @@ taxonomy:
 
 </div>
 
+<div class="guru-main" markdown="1">
+
 # A Quick Look Back: The Story of CSS
 
-Before we dive deeper into the nitty-gritty of CSS, I thought it would be helpful to take a little trip down memory lane and understand _why_ CSS came to be in the first place. It wasn't always around, and its arrival was a pretty big deal for the web!
+Before we dive deeper into the nitty-gritty of CSS, I thought it would be helpful to take a little trip down memory lane and understand _why_ CSS came to be in the first place. It wasn't always around, and its arrival was a pretty big deal for the web! 
 
 ## The "Academic" Web and the Need for Style <a id="the-academic-web"></a>
 
@@ -101,3 +103,5 @@ We don't really have official "CSS Level" numbers anymore in the traditional sen
 The history of CSS is a story of moving from a basic, unstructured way of styling to a more organized, standardized, and powerful system. Understanding this history helps us appreciate the benefits of using CSS and how far web development has come!
 
 In the next lesson, we'll finally get our hands dirty and learn about the different ways you can actually _apply_ CSS to your HTML. Get excited!
+
+</div>

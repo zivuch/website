@@ -11,7 +11,7 @@ taxonomy:
 
 <div class="toc" markdown="1">
 
-## On this Page
+## On this Page 
 
 * [The Power of Selectors](#the-power-of-selectors)
 * [Basic Selectors: Targeting by Element, Class, and ID](#basic-selectors)
@@ -32,7 +32,7 @@ taxonomy:
 
 </div>
 
-<div class="main" markdown="1">
+<div class="guru-main" markdown="1">
 
 # Mastering CSS Selectors: Targeting Exactly What You Want
 

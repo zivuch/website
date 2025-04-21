@@ -24,7 +24,7 @@ taxonomy:
 
 </div>
 
-<div class="main" markdown="1">
+<div class="guru-main" markdown="1">
 
 # Understanding the CSS Cascade: Resolving Style Conflicts
 
