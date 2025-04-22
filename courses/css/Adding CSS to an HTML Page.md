@@ -35,8 +35,6 @@ Alright, you now know what CSS is and the basic structure of CSS rules. The next
 
 Think of it like this: you've designed some fantastic outfits (your CSS), but now you need to tell your HTML elements (your mannequins) to wear them. There are a few different ways to do this, each with its own pros and cons. Let's explore them!
 
-
-
 ## Getting Started: Linking CSS
 
 There are three main ways to add CSS to an HTML page:
@@ -45,15 +43,11 @@ There are three main ways to add CSS to an HTML page:
 2.  Using the `<style>` tag (embedding CSS directly in the HTML).
 3.  Using inline styles (applying styles directly to individual HTML elements).
 
-
-
 Let's take a closer look at each of these methods.
 
 ## Method 1: The Power of the `<link>` Tag
 
 - This is the **most common and generally recommended** way to add CSS to your HTML pages, especially for larger websites. It involves creating a separate file (usually with a `.css` extension) that contains all your CSS rules and then linking that file to your HTML document.
-
-
 
 ### Why `<link>` is the Preferred Way
 
@@ -65,8 +59,6 @@ Let's take a closer look at each of these methods.
 - **Reusability:** The same CSS file can be linked to multiple HTML pages, saving you time and effort.
 
 Think of it like having a master style guide for your entire website.
-
-
 
 ### How to Use the `<link>` Tag
 
@@ -94,8 +86,6 @@ Let's break down the attributes in the `<link>` tag:
 **Visualizing the Link:**
 
 Imagine your HTML file as a person getting dressed. The `<link>` tag is like saying, "Hey, go grab the 'styles.css' outfit from the closet and put it on!"
-
-
 
 ## Method 2: Styling Directly with the `<style>` Tag
 
@@ -126,8 +116,6 @@ Here's how it looks:
 
 Inside the `<style>` tags, you can write your CSS rules just like you would in an external `.css` file.
 
-
-
 ### When to Use `<style>`
 
 While the `<link>` method is generally preferred, using the `<style>` tag can be useful in a few situations:
@@ -135,25 +123,17 @@ While the `<link>` method is generally preferred, using the `<style>` tag can be
 - **Experimenting and Quick Tests:** It's a convenient way to try out some CSS styles directly in your HTML without having to create a separate file.
 - **Page-Specific Styles:** If you have a very small amount of CSS that is only relevant to a single HTML page, embedding it with `<style>` might be acceptable. However, even in these cases, consider if moving it to a separate file would improve organization in the long run.
 
-
-
-### How to Use the `<style>` Tag 
+### How to Use the `<style>` Tag
 
 Simply open the `<style>` tag, write your CSS rules, and then close the `</style>` tag. Make sure it's placed within the `<head>` of your HTML document.
-
-
 
 ## Method 3: Inline Styles - Proceed with Caution!
 
 The third way to add CSS is by using the `style` attribute directly within individual HTML tags.
 
-
-
-### Understanding Inline Styles 
+### Understanding Inline Styles
 
 With inline styles, you add CSS properties and values directly as an attribute of an HTML element.
-
-
 
 ### Example of Inline Styles
 
@@ -175,8 +155,6 @@ With inline styles, you add CSS properties and values directly as an attribute o
 
 As you can see, the CSS rules are written directly within the `style` attribute of the `<h1>` and `<p>` tags.
 
-
-
 ### Why Inline Styles Aren't Usually the Best Idea
 
 While inline styles might seem like a quick fix for styling individual elements, they come with some significant drawbacks, especially for larger projects:
@@ -188,8 +166,6 @@ While inline styles might seem like a quick fix for styling individual elements,
 
 **Think of inline styles as putting clothes directly onto individual LEGO bricks instead of having a separate box of colored bricks you can use for your whole LEGO house.**
 
-
-
 ## Which Method Should You Choose?
 
 For most projects, **linking to an external CSS file using the `<link>` tag is the best and most recommended approach.** It promotes clean, organized, and maintainable code.
@@ -197,8 +173,6 @@ For most projects, **linking to an external CSS file using the `<link>` tag is t
 Using the `<style>` tag within the `<head>` can be useful for small, page-specific styles or for quick experimentation.
 
 **Inline styles should generally be avoided** for anything beyond very basic, one-off styling, as they can quickly lead to messy and hard-to-manage code.
-
-
 
 ## Time to Experiment!
 
