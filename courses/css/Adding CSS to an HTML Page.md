@@ -64,10 +64,10 @@ Think of it like having a master style guide for your entire website.
 
 To link an external CSS file to your HTML, you use the `<link>` tag within the `<head>` section of your HTML document. Here's the basic syntax:
 
-```css
-
-<link rel="stylesheet" href="styles.css" type="text/css" >
-
+```html
+<>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+</>
 ```
 
 Let's break down the attributes in the `<link>` tag:
