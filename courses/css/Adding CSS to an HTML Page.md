@@ -60,11 +60,11 @@ Let's take a closer look at each of these methods.
 
 Think of it like having a master style guide for your entire website.
 
-### How to Use the `<link>` Tag ilona
+### How to Use the `<link>` Tag 123
 
 To link an external CSS file to your HTML, you use the `<link>` tag within the `<head>` section of your HTML document. Here's the basic syntax:
 
-```
+```css
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
