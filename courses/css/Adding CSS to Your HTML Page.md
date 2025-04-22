@@ -21,7 +21,7 @@ taxonomy:
 - [Method 3: Inline Styles - Proceed with Caution!](#method-3-inline-styles)
   - [Understanding Inline Styles](#understanding-inline-styles)
   - [Example of Inline Styles](#example-inline-styles)
-  - [Why Inline Styles Aren't Usually the Best Idea](#why-not-inline)
+  - [Why Inline Styles Aren't Usually the Best Idea](#why-not-inline)  
 - [Which Method Should You Choose?](#which-method-to-choose)
 - [Time to Experiment!](#time-to-experiment)
 
@@ -39,17 +39,17 @@ Think of it like this: you've designed some fantastic outfits (your CSS), but no
 
 There are three main ways to add CSS to an HTML page:
 
-1.  Using the `link` tag (linking to an external CSS file).
-2.  Using the `style` tag (embedding CSS directly in the HTML).
+1.  Using the `<link>` tag (linking to an external CSS file).
+2.  Using the `<style>` tag (embedding CSS directly in the HTML).
 3.  Using inline styles (applying styles directly to individual HTML elements).
 
 Let's take a closer look at each of these methods.
 
-## Method 1: The Power of the `link` Tag <a id="method-1-the-link-tag"></a>
+## Method 1: The Power of the `<link>` Tag <a id="method-1-the-link-tag"></a>
 
 This is the **most common and generally recommended** way to add CSS to your HTML pages, especially for larger websites. It involves creating a separate file (usually with a `.css` extension) that contains all your CSS rules and then linking that file to your HTML document.
 
-### Why `link` is the Preferred Way <a id="why-link-preferred"></a>
+### Why `<link>` is the Preferred Way <a id="why-link-preferred"></a>
 
 Imagine you have a website with many different pages. If you keep all your styling in one central CSS file, you get some fantastic benefits:
 
@@ -60,9 +60,9 @@ Imagine you have a website with many different pages. If you keep all your styli
 
 Think of it like having a master style guide for your entire website.
 
-### How to Use the `link` Tag <a id="how-to-use-link"></a>
+### How to Use the `<link>` Tag <a id="how-to-use-link"></a>
 
-To link an external CSS file to your HTML, you use the `link` tag within the `head` section of your HTML document. Here's the basic syntax:
+To link an external CSS file to your HTML, you use the `<link>` tag within the `<head>` section of your HTML document. Here's the basic syntax:
 
 ```html
 <!DOCTYPE html>
@@ -80,7 +80,7 @@ To link an external CSS file to your HTML, you use the `link` tag within the `he
 </html>
 ```
 
-Let's break down the attributes in the `link` tag:
+Let's break down the attributes in the `<link>` tag: 
 
 - **`rel="stylesheet"`:** This attribute tells the browser that the linked file is a stylesheet containing CSS rules. It's essential for the browser to understand how to process the file.
 - **`type="text/css"`:** This attribute specifies the type of the linked document. For CSS files, the type is always `text/css`.
@@ -88,11 +88,11 @@ Let's break down the attributes in the `link` tag:
 
 **Visualizing the Link:**
 
-Imagine your HTML file as a person getting dressed. The `link` tag is like saying, "Hey, go grab the 'styles.css' outfit from the closet and put it on!"
+Imagine your HTML file as a person getting dressed. The `<link>` tag is like saying, "Hey, go grab the 'styles.css' outfit from the closet and put it on!"
 
-## Method 2: Styling Directly with the `style` Tag <a id="method-2-the-style-tag"></a>
+## Method 2: Styling Directly with the `<style>` Tag <a id="method-2-the-style-tag"></a>
 
-Another way to add CSS is by using the `style` tag directly within your HTML document. You typically place this tag inside the `head` section, just like the `link` tag.
+Another way to add CSS is by using the `<style>` tag directly within your HTML document. You typically place this tag inside the `<head>` section, just like the `<link>` tag.
 
 Here's how it looks:
 
@@ -120,14 +120,14 @@ Here's how it looks:
 </html>
 ```
 
-Inside the `style` tags, you can write your CSS rules just like you would in an external `.css` file.
+Inside the `<style>` tags, you can write your CSS rules just like you would in an external `.css` file.
 
-### When to Use `style` <a id="when-to-use-style"></a>
+### When to Use `<style>` <a id="when-to-use-style"></a>
 
-While the `link` method is generally preferred, using the `style` tag can be useful in a few situations:
+While the `<link>` method is generally preferred, using the `<style>` tag can be useful in a few situations:
 
 - **Experimenting and Quick Tests:** It's a convenient way to try out some CSS styles directly in your HTML without having to create a separate file.
-- **Page-Specific Styles:** If you have a very small amount of CSS that is only relevant to a single HTML page, embedding it with `style` might be acceptable. However, even in these cases, consider if moving it to a separate file would improve organization in the long run.
+- **Page-Specific Styles:** If you have a very small amount of CSS that is only relevant to a single HTML page, embedding it with `<style>` might be acceptable. However, even in these cases, consider if moving it to a separate file would improve organization in the long run.
 
 ### How to Use the `<style>` Tag <a id="how-to-use-style-tag"></a>
 
