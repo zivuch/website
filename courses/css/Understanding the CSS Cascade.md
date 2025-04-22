@@ -26,7 +26,7 @@ taxonomy:
 
 <div class="guru-main" markdown="1">
 
-# Understanding the CSS Cascade: Resolving Style Conflicts
+## Understanding the CSS Cascade: Resolving Style Conflicts
 
 **Cascade** is a core concept in CSS. In fact, it's so important that it's right there in the name: **Cascading Style Sheets**. But what exactly does "cascading" mean in this context?
 

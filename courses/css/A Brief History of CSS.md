@@ -2,7 +2,6 @@
 title: A Brief History of CSS
 menu_order: 2
 post_status: publish
-featured_image: _images/post-background.png
 taxonomy:
   category:
     - css
@@ -29,7 +28,7 @@ taxonomy:
 
 <div class="guru-main" markdown="1">
 
-# A Quick Look Back: The Story of CSS
+## A Quick Look Back: The Story of CSS
 
 Before we dive deeper into the nitty-gritty of CSS, I thought it would be helpful to take a little trip down memory lane and understand _why_ CSS came to be in the first place. It wasn't always around, and its arrival was a pretty big deal for the web! 
 

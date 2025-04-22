@@ -2,7 +2,6 @@
 title: Adding CSS to HTML Page
 menu_order: 3
 post_status: publish
-featured_image: _images/post-background.png
 taxonomy:
   category:
     - css
@@ -30,7 +29,7 @@ taxonomy:
 
 <div class="guru-main" markdown="1">
 
-# Adding CSS to Your HTML Page
+## Adding CSS to Your HTML Page
 
 Alright, you now know what CSS is and the basic structure of CSS rules. The next logical question is: **how do we actually connect our awesome CSS styles to our HTML pages so they can work their magic?**
 

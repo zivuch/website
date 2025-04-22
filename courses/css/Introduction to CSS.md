@@ -2,7 +2,6 @@
 title: Introduction to CSS
 menu_order: 1
 post_status: publish
-featured_image: _images/post-background.png
 taxonomy:
   category:
     - css
@@ -28,7 +27,7 @@ taxonomy:
 
 <div class="guru-main" markdown="1">
 
-# Introduction to CSS 
+## Introduction to CSS 
 
 Hey there, future web designers! 👋 You've already taken the first step by wanting to learn about **CSS**. That's awesome! Think of CSS as the magic wand that lets you take plain HTML and make it look beautiful, organized, and just the way you want it.
 

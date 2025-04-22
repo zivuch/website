@@ -34,7 +34,7 @@ taxonomy:
 
 <div class="guru-main" markdown="1">
 
-# Mastering CSS Selectors: Targeting Exactly What You Want
+## Mastering CSS Selectors: Targeting Exactly What You Want
 
 In our previous lessons, you learned the fundamental structure of CSS rules and how to link CSS to your HTML. Now, we're going to delve into a crucial concept: **CSS Selectors**.
 
