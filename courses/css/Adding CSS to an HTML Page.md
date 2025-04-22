@@ -65,9 +65,9 @@ Think of it like having a master style guide for your entire website.
 To link an external CSS file to your HTML, you use the `<link>` tag within the `<head>` section of your HTML document. Here's the basic syntax:
 
 ```html
-<>
-<link rel="stylesheet" href="styles.css" type="text/css" />
-</>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css"  />
+</head>
 ```
 
 Let's break down the attributes in the `<link>` tag:
@@ -87,7 +87,6 @@ Another way to add CSS is by using the `<style>` tag directly within your HTML d
 Here's how it looks:
 
 ```html
-<>
 <style>
   h1 {
     color: green;
@@ -97,7 +96,6 @@ Here's how it looks:
     font-size: 18px;
   }
 </style>
-</>
 ```
 
 Inside the `<style>` tags, you can write your CSS rules just like you would in an external `.css` file.
