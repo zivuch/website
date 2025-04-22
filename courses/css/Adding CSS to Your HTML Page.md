@@ -45,7 +45,10 @@ There are three main ways to add CSS to an HTML page:
 
 Let's take a closer look at each of these methods.
 
-## Method 1: The Power of the `<link>` Tag <a id="method-1-the-link-tag"></a>
+<a id="method-1-the-link-tag"></a>
+
+## Method 1: The Power of the `<link>` Tag 
+
 
 This is the **most common and generally recommended** way to add CSS to your HTML pages, especially for larger websites. It involves creating a separate file (usually with a `.css` extension) that contains all your CSS rules and then linking that file to your HTML document.
 
