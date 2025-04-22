@@ -60,14 +60,14 @@ Let's take a closer look at each of these methods.
 
 Think of it like having a master style guide for your entire website.
 
-### How to Use the `<link>` Tag <a id="how-to-use-link"></a>
+### How to Use the `<link>` Tag123 <a id="how-to-use-link"></a>
 
 To link an external CSS file to your HTML, you use the `<link>` tag within the `<head>` section of your HTML document. Here's the basic syntax:
 
 ```html
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css"></link>
   </head>
   <body>
     <h1>Welcome to My Website!</h1>
