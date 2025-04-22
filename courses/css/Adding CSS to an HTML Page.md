@@ -64,8 +64,7 @@ Think of it like having a master style guide for your entire website.
 
 To link an external CSS file to your HTML, you use the `<link>` tag within the `<head>` section of your HTML document. Here's the basic syntax:
 
-```html
-<!DOCTYPE html>
+```
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -96,8 +95,7 @@ Another way to add CSS is by using the `<style>` tag directly within your HTML d
 
 Here's how it looks:
 
-```html
-<!DOCTYPE html>
+```
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -143,8 +141,7 @@ With inline styles, you add CSS properties and values directly as an attribute o
 
 ### Example of Inline Styles 
 
-```html
-<!DOCTYPE html>
+```
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
