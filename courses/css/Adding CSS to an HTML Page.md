@@ -35,7 +35,7 @@ Alright, you now know what CSS is and the basic structure of CSS rules. The next
 
 Think of it like this: you've designed some fantastic outfits (your CSS), but now you need to tell your HTML elements (your mannequins) to wear them. There are a few different ways to do this, each with its own pros and cons. Let's explore them!
 
-## Getting Started: Linking CSS <a name="getting-started-linking-css"></a>
+## Getting Started: Linking CSS <a name="getting-started-linking-css">
 
 There are three main ways to add CSS to an HTML page:
 
@@ -45,11 +45,11 @@ There are three main ways to add CSS to an HTML page:
 
 Let's take a closer look at each of these methods.
 
-## Method 1: The Power of the `<link>` Tag <a name="method-1-the-link-tag"></a>
+## Method 1: The Power of the `<link>` Tag <a name="method-1-the-link-tag">
 
 - This is the **most common and generally recommended** way to add CSS to your HTML pages, especially for larger websites. It involves creating a separate file (usually with a `.css` extension) that contains all your CSS rules and then linking that file to your HTML document.
 
-### Why `<link>` is the Preferred Way <a name="why-link-preferred"></a>
+### Why `<link>` is the Preferred Way <a name="why-link-preferred">
 
 - Imagine you have a website with many different pages. If you keep all your styling in one central CSS file, you get some fantastic benefits:
 
@@ -60,7 +60,7 @@ Let's take a closer look at each of these methods.
 
 Think of it like having a master style guide for your entire website.
 
-### How to Use the `<link>` Tag <a name="how-to-use-link"></a>
+### How to Use the `<link>` Tag <a name="how-to-use-link">
 
 To link an external CSS file to your HTML, you use the `<link>` tag within the `<head>` section of your HTML document. Here's the basic syntax:
 
@@ -90,7 +90,7 @@ Let's break down the attributes in the `<link>` tag:
 
 Imagine your HTML file as a person getting dressed. The `<link>` tag is like saying, "Hey, go grab the 'styles.css' outfit from the closet and put it on!"
 
-## Method 2: Styling Directly with the `<style>` Tag <a name="method-2-the-style-tag"></a>
+## Method 2: Styling Directly with the `<style>` Tag <a name="method-2-the-style-tag">
 
 Another way to add CSS is by using the `<style>` tag directly within your HTML document. You typically place this tag inside the `<head>` section, just like the `<link>` tag.
 
@@ -122,26 +122,26 @@ Here's how it looks:
 
 Inside the `<style>` tags, you can write your CSS rules just like you would in an external `.css` file.
 
-### When to Use `<style>` <a name="when-to-use-style"></a>
+### When to Use `<style>` <a name="when-to-use-style">
 
 While the `<link>` method is generally preferred, using the `<style>` tag can be useful in a few situations:
 
 - **Experimenting and Quick Tests:** It's a convenient way to try out some CSS styles directly in your HTML without having to create a separate file.
 - **Page-Specific Styles:** If you have a very small amount of CSS that is only relevant to a single HTML page, embedding it with `<style>` might be acceptable. However, even in these cases, consider if moving it to a separate file would improve organization in the long run.
 
-### How to Use the `<style>` Tag <a name="how-to-use-style-tag"></a>
+### How to Use the `<style>` Tag <a name="how-to-use-style-tag">
 
 Simply open the `<style>` tag, write your CSS rules, and then close the `</style>` tag. Make sure it's placed within the `<head>` of your HTML document.
 
-## Method 3: Inline Styles - Proceed with Caution! <a name="method-3-inline-styles"></a>
+## Method 3: Inline Styles - Proceed with Caution! <a name="method-3-inline-styles">
 
 The third way to add CSS is by using the `style` attribute directly within individual HTML tags.
 
-### Understanding Inline Styles <a name="understanding-inline-styles"></a>
+### Understanding Inline Styles <a name="understanding-inline-styles">
 
 With inline styles, you add CSS properties and values directly as an attribute of an HTML element.
 
-### Example of Inline Styles <a name="example-inline-styles"></a>
+### Example of Inline Styles <a name="example-inline-styles">
 
 ```html
 <!DOCTYPE html>
@@ -164,7 +164,7 @@ With inline styles, you add CSS properties and values directly as an attribute o
 
 As you can see, the CSS rules are written directly within the `style` attribute of the `<h1>` and `<p>` tags.
 
-### Why Inline Styles Aren't Usually the Best Idea <a name="why-not-inline"></a>
+### Why Inline Styles Aren't Usually the Best Idea <a name="why-not-inline">
 
 While inline styles might seem like a quick fix for styling individual elements, they come with some significant drawbacks, especially for larger projects:
 
@@ -175,7 +175,7 @@ While inline styles might seem like a quick fix for styling individual elements,
 
 **Think of inline styles as putting clothes directly onto individual LEGO bricks instead of having a separate box of colored bricks you can use for your whole LEGO house.**
 
-## Which Method Should You Choose? <a name="which-method-to-choose"></a>
+## Which Method Should You Choose? <a name="which-method-to-choose">
 
 For most projects, **linking to an external CSS file using the `<link>` tag is the best and most recommended approach.** It promotes clean, organized, and maintainable code.
 
@@ -183,7 +183,7 @@ Using the `<style>` tag within the `<head>` can be useful for small, page-specif
 
 **Inline styles should generally be avoided** for anything beyond very basic, one-off styling, as they can quickly lead to messy and hard-to-manage code.
 
-## Time to Experiment! <a name="time-to-experiment"></a>
+## Time to Experiment! <a name="time-to-experiment">
 
 Now that you know the different ways to add CSS to your HTML, it's time to try them out! Create a simple HTML file and experiment with each of these methods. See how they affect the appearance of your elements.
 
