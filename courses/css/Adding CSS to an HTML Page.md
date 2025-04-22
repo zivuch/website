@@ -29,7 +29,7 @@ taxonomy:
 
 <div class="guru-main">
 
-## Adding CSS to Your HTML Page
+## Adding CSS to Your HTML Page 123
 
 Alright, you now know what CSS is and the basic structure of CSS rules. The next logical question is: **how do we actually connect our awesome CSS styles to our HTML pages so they can work their magic?**
 
