@@ -9,7 +9,7 @@ taxonomy:
     - courses
 ---
 
-<div class="toc" markdown="1">
+<div class="toc">
 
 - [Getting Started: Linking CSS](#getting-started-linking-css)
 - [Method 1: The Power of the `<link>` Tag](#method-1-the-link-tag)
@@ -27,7 +27,7 @@ taxonomy:
 
 </div>
 
-<div class="guru-main" markdown="1">
+<div class="guru-main">
 
 ## Adding CSS to Your HTML Page
 
