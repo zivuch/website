@@ -87,6 +87,7 @@ Another way to add CSS is by using the `<style>` tag directly within your HTML d
 Here's how it looks:
 
 ```html
+<>
 <style>
   h1 {
     color: green;
@@ -96,6 +97,7 @@ Here's how it looks:
     font-size: 18px;
   }
 </style>
+</>
 ```
 
 Inside the `<style>` tags, you can write your CSS rules just like you would in an external `.css` file.
