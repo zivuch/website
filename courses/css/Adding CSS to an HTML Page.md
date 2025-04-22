@@ -47,11 +47,11 @@ Let's take a closer look at each of these methods.
 
 ## Method 1: The Power of the `<link>` Tag <a name="method-1-the-link-tag"></a>
 
-This is the **most common and generally recommended** way to add CSS to your HTML pages, especially for larger websites. It involves creating a separate file (usually with a `.css` extension) that contains all your CSS rules and then linking that file to your HTML document.
+- This is the **most common and generally recommended** way to add CSS to your HTML pages, especially for larger websites. It involves creating a separate file (usually with a `.css` extension) that contains all your CSS rules and then linking that file to your HTML document.
 
 ### Why `<link>` is the Preferred Way <a name="why-link-preferred"></a>
 
-Imagine you have a website with many different pages. If you keep all your styling in one central CSS file, you get some fantastic benefits:
+- Imagine you have a website with many different pages. If you keep all your styling in one central CSS file, you get some fantastic benefits:
 
 - **Consistency:** You can ensure that all your pages have a consistent look and feel.
 - **Organization:** Your HTML remains clean and focused on the structure of your content, while your CSS handles all the visual presentation.
