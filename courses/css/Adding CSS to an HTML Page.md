@@ -21,7 +21,7 @@ taxonomy:
 - [Method 3: Inline Styles - Proceed with Caution!](#method-3-inline-styles)
   - [Understanding Inline Styles](#understanding-inline-styles)
   - [Example of Inline Styles](#example-inline-styles)
-  - [Why Inline Styles Aren't Usually the Best Idea](#why-not-inline)  
+  - [Why Inline Styles Aren't Usually the Best Idea](#why-not-inline)
 - [Which Method Should You Choose?](#which-method-to-choose)
 - [Time to Experiment!](#time-to-experiment)
 
@@ -65,22 +65,19 @@ Think of it like having a master style guide for your entire website.
 To link an external CSS file to your HTML, you use the `<link>` tag within the `<head>` section of your HTML document. Here's the basic syntax:
 
 ```html
-
-
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Awesome Website</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-  </head>
-  <body>
-    <h1>Welcome to My Website!</h1>
-    <p>This is some exciting content.</p>
-  </body>
-<
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Awesome Website</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+  <h1>Welcome to My Website!</h1>
+  <p>This is some exciting content.</p>
+</body>
 ```
 
-Let's break down the attributes in the `<link>` tag: 
+Let's break down the attributes in the `<link>` tag:
 
 - **`rel="stylesheet"`:** This attribute tells the browser that the linked file is a stylesheet containing CSS rules. It's essential for the browser to understand how to process the file.
 - **`type="text/css"`:** This attribute specifies the type of the linked document. For CSS files, the type is always `text/css`.
@@ -97,27 +94,24 @@ Another way to add CSS is by using the `<style>` tag directly within your HTML d
 Here's how it looks:
 
 ```html
-
-
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Another Page</title>
-    <style>
-      h1 {
-        color: green;
-        text-align: center;
-      }
-      p {
-        font-size: 18px;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Welcome to This Page!</h1>
-    <p>Here's some text with a different style.</p>
-  </body>
-<
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Another Page</title>
+  <style>
+    h1 {
+      color: green;
+      text-align: center;
+    }
+    p {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to This Page!</h1>
+  <p>Here's some text with a different style.</p>
+</body>
 ```
 
 Inside the `<style>` tags, you can write your CSS rules just like you would in an external `.css` file.
@@ -144,22 +138,19 @@ With inline styles, you add CSS properties and values directly as an attribute o
 ### Example of Inline Styles <a id="example-inline-styles"></a>
 
 ```html
-
-
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Inline Styling</title>
-  </head>
-  <body>
-    <h1 style="color: purple; text-decoration: underline;">
-      This Heading is Purple and Underlined
-    </h1>
-    <p style="background-color: lightblue; padding: 10px;">
-      This paragraph has a light blue background and some padding.
-    </p>
-  </body>
-<
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inline Styling</title>
+</head>
+<body>
+  <h1 style="color: purple; text-decoration: underline;">
+    This Heading is Purple and Underlined
+  </h1>
+  <p style="background-color: lightblue; padding: 10px;">
+    This paragraph has a light blue background and some padding.
+  </p>
+</body>
 ```
 
 As you can see, the CSS rules are written directly within the `style` attribute of the `<h1>` and `<p>` tags.
