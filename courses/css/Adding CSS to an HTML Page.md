@@ -60,13 +60,13 @@ Let's take a closer look at each of these methods.
 
 Think of it like having a master style guide for your entire website.
 
-### How to Use the123 `<link>` Tag <a id="how-to-use-link"></a>
+### How to Use the `<link>` Tag <a id="how-to-use-link"></a>
 
 To link an external CSS file to your HTML, you use the `<link>` tag within the `<head>` section of your HTML document. Here's the basic syntax:
 
-```html
+```js
 <head>
-  <link rel="stylesheet" type="text/css" href="styles.css"  />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 ```
 
@@ -86,16 +86,18 @@ Another way to add CSS is by using the `<style>` tag directly within your HTML d
 
 Here's how it looks:
 
-```html
-<style>
-  h1 {
-    color: green;
-    text-align: center;
-  }
-  p {
-    font-size: 18px;
-  }
-</style>
+```js
+<head>
+  <style>
+    h1 {
+      color: green;
+      text-align: center;
+    }
+    p {
+      font-size: 18px;
+    }
+  </style>
+</head>
 ```
 
 Inside the `<style>` tags, you can write your CSS rules just like you would in an external `.css` file.
@@ -121,7 +123,7 @@ With inline styles, you add CSS properties and values directly as an attribute o
 
 ### Example of Inline Styles <a id="example-inline-styles"></a>
 
-```html
+```js
 <h1 style="color: purple; text-decoration: underline;">
   This Heading is Purple and Underlined
 </h1>
