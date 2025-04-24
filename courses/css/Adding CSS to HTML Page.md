@@ -1,5 +1,5 @@
 ---
-title: Adding CSS to Your HTML Page
+title: Adding CSS to HTML Page
 menu_order: 3
 post_status: publish
 taxonomy:
