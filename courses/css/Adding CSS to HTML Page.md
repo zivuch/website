@@ -83,19 +83,6 @@ Another way to add CSS is by using the `<style>` tag directly within your HTML d
 
 Here's how it looks:
 
-```js
-<head>
-  <style>
-    h1 {
-      color: green;
-      text-align: center;
-    }
-    p {
-      font-size: 18px;
-    }
-  </style>
-</head>
-```
 
 Inside the `<style>` tags, you can write your CSS rules just like you would in an external `.css` file.
 
@@ -119,15 +106,6 @@ The third way to add CSS is by using the `style` attribute directly within indiv
 With inline styles, you add CSS properties and values directly as an attribute of an HTML element.
 
 ### Example of Inline Styles <a id="example-inline-styles"></a>
-
-```js
-<h1 style="color: purple; text-decoration: underline;">
-  This Heading is Purple and Underlined
-</h1>
-<p style="background-color: lightblue; padding: 10px;">
-  This paragraph has a light blue background and some padding.
-</p>
-```
 
 
 As you can see, the CSS rules are written directly within the `style` attribute of the `<h1>` and `<p>` tags.
