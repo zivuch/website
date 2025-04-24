@@ -47,6 +47,9 @@ Let's take a closer look at each of these methods.
 
 ## Method 1: The Power of the `<link>` Tag <a id="method-1-the-link-tag"></a>
 
+<span>12345</span>
+
+
 - This is the **most common and generally recommended** way to add CSS to your HTML pages, especially for larger websites. It involves creating a separate file (usually with a `.css` extension) that contains all your CSS rules and then linking that file to your HTML document.
 
 ### Why `<link>` is the Preferred Way <a id="why-link-preferred"></a>
