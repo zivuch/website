@@ -67,11 +67,11 @@ Think of it like having a master style guide for your entire website.
 
 To link an external CSS file to your HTML, you use the `<link>` tag within the `<head>` section of your HTML document. Here's the basic syntax:
 
-
+```js
 <head>
   <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
-
+```
 
 Let's break down the attributes in the `<link>` tag:
 
@@ -89,7 +89,7 @@ Another way to add CSS is by using the `<style>` tag directly within your HTML d
 
 Here's how it looks:
 
-
+```js
 <head>
   <style>
     h1 {
@@ -126,13 +126,14 @@ With inline styles, you add CSS properties and values directly as an attribute o
 
 ### Example of Inline Styles <a id="example-inline-styles"></a>
 
-
+```js
 <h1 style="color: purple; text-decoration: underline;">
   This Heading is Purple and Underlined
 </h1>
 <p style="background-color: lightblue; padding: 10px;">
   This paragraph has a light blue background and some padding.
 </p>
+```
 
 
 As you can see, the CSS rules are written directly within the `style` attribute of the `<h1>` and `<p>` tags.
