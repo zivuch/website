@@ -1,10 +1,15 @@
-# Zod Guide – Table of Contents
+<div class="guru-cat-main" markdown="1">
+
+## Basic Guide to Zod
 
 - [Lesson 01: Introduction to Zod and Schema Basics](./lesson 01 - Introduction To Zod And Schema Basics.md)
 - [Lesson 02: Optional Fields, Default Values, and Type Modifiers](./lesson 02 - Optional Fields Default Values And Type.md)
 - [Lesson 03: Arrays, Enums, and Literal Types](./lesson 03 - Arrays Enums And Literal Types.md)
 - [Lesson 04: Nested Objects and Schema Composition](./lesson 04 - Nested Objects And Schema Composition.md)
 - [Lesson 05: Validation Methods, Error Handling, and Utilities](./lesson 05 - Validation Methods Error Handling And Utilities.md)
+
+## Advanced Guide to Zod
+
 - [Lesson 06: Schema Composition with Merge, Extend, Pick, and Omit](./lesson 06 - Schema Composition With Merge Extend Pick.md)
 - [Lesson 07: Refinement, superRefine, and Custom Validators](./lesson 07 - Refinement Superrefine And Custom Validators.md)
 - [Lesson 08: Discriminated Unions and Tagged Types](./lesson 08 - Discriminated Unions And Tagged Types.md)
@@ -12,6 +17,9 @@
 - [Lesson 10: Working with Records, Maps, Sets, and Enums](./lesson 10 - Working With Records Maps Sets And.md)
 - [Lesson 11: Async Validation with Promises](./lesson 11 - Async Validation With Promises.md)
 - [Lesson 12: Reusable Schemas Across Frontend and Backend](./lesson 12 - Reusable Schemas Across Frontend And Backend.md)
+
+## Practical Examples, Problems, and Solutions with Zod
+
 - [Lesson 13: Validating a User Registration Form](./lesson 13 - Validating A User Registration Form.md)
 - [Lesson 14: Validating API Query Parameters](./lesson 14 - Validating Api Query Parameters.md)
 - [Lesson 15: Validating Environment Variables](./lesson 15 - Validating Environment Variables.md)
@@ -22,3 +30,5 @@
 - [Lesson 20: Final Thoughts, Best Practices, and Resources](./lesson 20 - Final Thoughts Best Practices And Resources.md)
 - [Lesson 21: Validating Express Requests with Zod](./lesson 21 - Validating Express Requests With Zod.md)
 - [Lesson 22: Custom Zod Error Formatter for Express APIs](./lesson 22 - Custom Zod Error Formatter For Express.md)
+
+</div>
