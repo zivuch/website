@@ -31,7 +31,7 @@ taxonomy:
 
 <div class="guru-main" markdown="1">
 
-## What is Zod?
+## What is Zod? <a id="what-is-zod">
 
 **Zod** is a TypeScript-first schema declaration and validation library. It lets you define the **shape of your data** in code and then **validate** incoming data (like API responses, form inputs, environment variables, etc.) at runtime - all while providing **type safety**.
 

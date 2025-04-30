@@ -19,6 +19,8 @@ taxonomy:
 
 ## Basic Guide to Zod
 
+### Get started with Zod by learning its core syntax, basic types, optional fields, arrays, enums, and validation methods.
+
 - [Lesson 01: Introduction to Zod and Schema Basics](./lesson-01-introduction-to-zod-and-schema-basics)
 - [Lesson 02: Optional Fields, Default Values, and Type Modifiers](./lesson-02-optional-fields-default-values-and-type)
 - [Lesson 03: Arrays, Enums, and Literal Types](./lesson-03-arrays-enums-and-literal-types)
@@ -26,6 +28,9 @@ taxonomy:
 - [Lesson 05: Validation Methods, Error Handling, and Utilities](./lesson-05-validation-methods-error-handling-and-utilities)
 
 ## Advanced Guide to Zod
+
+### Go deeper into Zod with schema composition, discriminated unions, transformations, async validation, and schema reuse across your stack.
+
 
 - [Lesson 06: Schema Composition with Merge, Extend, Pick, and Omit](./lesson-06-schema-composition-with-merge-extend-pick)
 - [Lesson 07: Refinement, superRefine, and Custom Validators](./lesson-07-refinement-superrefine-and-custom-validators)
@@ -36,6 +41,9 @@ taxonomy:
 - [Lesson 12: Reusable Schemas Across Frontend and Backend](./lesson-12-reusable-schemas-across-frontend-and-backend)
 
 ## Practical Guide to Zod
+
+### Apply Zod in real-world scenarios like form validation, query parsing, environment setup, Express APIs, and frontend error handling.
+
 
 - [Lesson 13: Validating a User Registration Form](./lesson-13-validating-a-user-registration-form)
 - [Lesson 14: Validating API Query Parameters](./lesson14-validating-api-query-parameters)
