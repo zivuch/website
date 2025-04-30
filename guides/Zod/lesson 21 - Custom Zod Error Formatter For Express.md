@@ -7,7 +7,7 @@ featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zod
-    - Practical Guide
+    - Practical Guide to Zod
   post_tag:
     - error formatting
     - express

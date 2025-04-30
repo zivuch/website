@@ -1,3 +1,20 @@
+---
+title: Zod Guide
+menu_order: 1
+post_status: publish
+post_excerpt: 
+featured_image: _images/bg-p.png
+taxonomy:
+  category:
+    - zod
+    - Basic Guide to Zod
+    - Advanced Guide to Zod
+    - Practical Guide to Zod
+  post_tag:
+    - typescript
+    - zod
+---
+
 <div class="guru-cat-main" markdown="1">
 
 ## Basic Guide to Zod
