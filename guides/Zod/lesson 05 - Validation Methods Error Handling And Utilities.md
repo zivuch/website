@@ -3,6 +3,7 @@ title: Validation Methods, Error Handling, and Zod Utilities
 menu_order: 5
 post_status: publish
 post_excerpt: Understand parse vs safeParse, and how to handle validation errors effectively.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zod

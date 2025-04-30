@@ -3,6 +3,7 @@ title: Creating a Reusable Zod Error Parser for Forms
 menu_order: 17
 post_status: publish
 post_excerpt: Build a reusable Zod error parser to simplify form handling in React.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zod

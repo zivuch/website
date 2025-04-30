@@ -3,6 +3,7 @@ title: Discriminated Unions and Tagged Types
 menu_order: 8
 post_status: publish
 post_excerpt: Handle multiple schema types with union and discriminatedUnion for clean branching.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zod

@@ -3,6 +3,7 @@ title: Validating API Query Parameters
 menu_order: 14
 post_status: publish
 post_excerpt: Cleanly validate query parameters in Express using Zod transformations.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zod

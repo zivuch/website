@@ -3,6 +3,7 @@ title: Bonus – Custom Zod Error Formatter for Express APIs
 menu_order: 22
 post_status: publish
 post_excerpt: Format Zod errors for consistent API responses using a custom Express handler.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zod

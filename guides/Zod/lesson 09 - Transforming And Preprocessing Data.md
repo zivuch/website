@@ -3,6 +3,7 @@ title: Transforming and Preprocessing Data with Zod
 menu_order: 9
 post_status: publish
 post_excerpt: Transform and sanitize data using transform and preprocess methods.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zod

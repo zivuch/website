@@ -3,6 +3,7 @@ title: Validating Express Requests with Zod
 menu_order: 21
 post_status: publish
 post_excerpt: Validate Express request bodies and params with a clean Zod middleware setup.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zod

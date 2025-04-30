@@ -3,6 +3,7 @@ title: Validating a User Registration Form
 menu_order: 13
 post_status: publish
 post_excerpt: Validate complex registration forms with confirm password and business rules.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zod

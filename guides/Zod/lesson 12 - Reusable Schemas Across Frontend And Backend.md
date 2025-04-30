@@ -3,6 +3,7 @@ title: Building Reusable Schemas Across Frontend and Backend
 menu_order: 12
 post_status: publish
 post_excerpt: Share and reuse schemas across frontend and backend for consistent validation.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zod

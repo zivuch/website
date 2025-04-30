@@ -3,6 +3,7 @@ title: Validating Environment Variables with Zod
 menu_order: 15
 post_status: publish
 post_excerpt: Enforce environment variable structure and fail fast with dotenv + Zod.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zod

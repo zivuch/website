@@ -3,6 +3,7 @@ title: Refinement, superRefine, and Custom Validators
 menu_order: 7
 post_status: publish
 post_excerpt: Add custom validation logic with refine and cross-field checks using superRefine.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zod

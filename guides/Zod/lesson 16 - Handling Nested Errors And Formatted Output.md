@@ -3,6 +3,7 @@ title: Handling Nested Errors and Formatted Output with Zod
 menu_order: 16
 post_status: publish
 post_excerpt: Format nested Zod validation errors for frontend-friendly feedback.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zod

@@ -3,6 +3,7 @@ title: Real-World Case Study – Blog Post Editor Validation
 menu_order: 18
 post_status: publish
 post_excerpt: Apply Zod in a real-world blog editor form with nested and conditional logic.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zod

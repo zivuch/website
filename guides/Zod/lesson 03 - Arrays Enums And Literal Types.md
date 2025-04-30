@@ -3,6 +3,7 @@ title: Arrays, Enums, and Literal Types in Zod
 menu_order: 3
 post_status: publish
 post_excerpt: Explore array validation, enums, and strict literal values.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zod

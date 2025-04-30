@@ -3,6 +3,7 @@ title: Schema Composition with Merge, Extend, Pick, and Omit
 menu_order: 6
 post_status: publish
 post_excerpt: Master schema composition using merge, extend, pick, and omit.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zod

@@ -3,6 +3,7 @@ title: Async Validation with Promises in Zod
 menu_order: 11
 post_status: publish
 post_excerpt: Validate asynchronous data like DB calls or APIs using refineAsync and parseAsync.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zod

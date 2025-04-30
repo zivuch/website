@@ -3,6 +3,7 @@ title: Working with Records, Maps, Sets, and Enums in Zod
 menu_order: 10
 post_status: publish
 post_excerpt: Use advanced Zod types like record, map, set, and enum with full type safety.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zod

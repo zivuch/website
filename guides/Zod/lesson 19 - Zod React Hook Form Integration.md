@@ -3,6 +3,7 @@ title: Zod + React Hook Form Integration for Full Form Validation
 menu_order: 19
 post_status: publish
 post_excerpt: Integrate Zod into React Hook Form for robust, type-safe form validation.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zod

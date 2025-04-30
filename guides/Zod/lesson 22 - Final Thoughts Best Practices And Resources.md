@@ -3,6 +3,7 @@ title: Final Thoughts, Best Practices, and Resources
 menu_order: 22
 post_status: publish
 post_excerpt: Final best practices, tips, and resources to use Zod effectively in any app.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zod
