@@ -3,7 +3,7 @@ title: Introduction to Zod and Schema Basics
 menu_order: 1
 post_status: publish
 post_excerpt: A beginner-friendly introduction to Zod, schemas, and basic parsing.
-featured_image: ../_images/bg-p.png
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zod
