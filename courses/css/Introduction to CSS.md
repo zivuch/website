@@ -2,6 +2,7 @@
 title: Introduction to CSS
 menu_order: 1
 post_status: publish
+featured_image: ./_images/post-background.png
 taxonomy:
   category:
     - css

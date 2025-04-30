@@ -2,6 +2,7 @@
 title: Adding CSS to HTML Page
 menu_order: 3
 post_status: publish
+featured_image: ./_images/post-background.png
 taxonomy:
   category:
     - css

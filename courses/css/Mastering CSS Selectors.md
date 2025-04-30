@@ -2,6 +2,7 @@
 title: Mastering CSS Selectors
 menu_order: 4
 post_status: publish
+featured_image: ./_images/post-background.png
 taxonomy:
   category:
     - css
