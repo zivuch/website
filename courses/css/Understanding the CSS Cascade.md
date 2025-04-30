@@ -2,7 +2,7 @@
 title: Understanding the CSS Cascade
 menu_order: 5
 post_status: publish
-featured_image: ./_images/post-background.png
+featured_image: ../../_images/bg-p.png
 taxonomy:
   category:
     - css

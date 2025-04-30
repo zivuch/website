@@ -2,7 +2,7 @@
 title: A Brief History of CSS
 menu_order: 2
 post_status: publish
-featured_image: ./_images/post-background.png
+featured_image: ../../_images/bg-p.png
 taxonomy:
   category:
     - css
