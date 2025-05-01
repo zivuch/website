@@ -17,6 +17,8 @@ taxonomy:
 
 <div class="guru-cat-main" markdown="1">
 
+<div class="guru-cat-in" markdown="1">
+
 ## Basic Guide to Zod
 
 ### Get started with Zod by learning its core syntax, basic types, optional fields, arrays, enums, and validation methods.
@@ -26,6 +28,10 @@ taxonomy:
 - [Lesson 03: Arrays, Enums, and Literal Types](./lesson-03-arrays-enums-and-literal-types)
 - [Lesson 04: Nested Objects and Schema Composition](./lesson-04-nested-objects-and-schema-composition)
 - [Lesson 05: Validation Methods, Error Handling, and Utilities](./lesson-05-validation-methods-error-handling-and-utilities)
+
+</div>
+
+<div class="guru-cat-in" markdown="1">
 
 ## Advanced Guide to Zod
 
@@ -39,6 +45,10 @@ taxonomy:
 - [Lesson 10: Working with Records, Maps, Sets, and Enums](./lesson-10-working-with-records-maps-sets-and)
 - [Lesson 11: Async Validation with Promises](./lesson-11-async-validation-with-promises)
 - [Lesson 12: Reusable Schemas Across Frontend and Backend](./lesson-12-reusable-schemas-across-frontend-and-backend)
+
+</div>
+
+<div class="guru-cat-in" markdown="1">
 
 ## Practical Guide to Zod
 
@@ -55,5 +65,7 @@ taxonomy:
 - [Lesson 21: Validating Express Requests with Zod](./lesson20-validating-express-requests-with-zod)
 - [Lesson 22: Custom Zod Error Formatter for Express APIs](./lesson-21-custom-zod-error-formatter-for-express)
 - [Lesson 20: Final Thoughts, Best Practices, and Resources](./lesson-22-final-thoughts-best-practices-and-resources)
+
+</div>
 
 </div>
