@@ -18,6 +18,8 @@ taxonomy:
 
 <div class="toc" markdown="1">
 
+<div class="otp" markdown="1">
+
 ## On this Page
 
 - [Why Schema Composition Matters](#why-schema-composition-matters)
@@ -40,6 +42,8 @@ taxonomy:
 - [Lesson 10: Working with Records, Maps, Sets, and Enums](./lesson-10-working-with-records-maps-sets-and)
 - [Lesson 11: Async Validation with Promises](./lesson-11-async-validation-with-promises)
 - [Lesson 12: Reusable Schemas Across Frontend and Backend](./lesson-12-reusable-schemas-across-frontend-and-backend)
+
+</div>
 
 </div>
 

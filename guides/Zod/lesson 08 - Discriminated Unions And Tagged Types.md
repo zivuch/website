@@ -17,6 +17,8 @@ taxonomy:
 
 <div class="toc" markdown="1">
 
+<div class="otp" markdown="1">
+
 ## On this Page
 
 - [What Are Discriminated Unions?](#what-are-discriminated-unions)
@@ -25,6 +27,8 @@ taxonomy:
 - [Why Prefer Discriminated Unions](#why-prefer-discriminated-unions)
 - [Type Inference and Usage](#type-inference-and-usage)
 - [Summary](#summary)
+
+</div>
 
 </div>
 

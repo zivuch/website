@@ -18,6 +18,8 @@ taxonomy:
 
 <div class="toc" markdown="1">
 
+<div class="otp" markdown="1">
+
 ## On this Page
 
 - [Why Use Zod in Express?](#why-use-zod-in-express)
@@ -26,6 +28,8 @@ taxonomy:
 - [Validating req.body, req.query, and req.params](#validating-reqbody-reqquery-and-reqparams)
 - [Using z.infer for Typed Handlers](#using-zinfer-for-typed-handlers)
 - [Summary](#summary)
+
+</div>
 
 </div>
 

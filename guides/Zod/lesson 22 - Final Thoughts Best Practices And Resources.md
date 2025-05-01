@@ -17,6 +17,8 @@ taxonomy:
 
 <div class="toc" markdown="1">
 
+<div class="otp" markdown="1">
+
 ## On this Page
 
 - [Why Zod Stands Out](#why-zod-stands-out)
@@ -24,6 +26,8 @@ taxonomy:
 - [Common Pitfalls to Avoid](#common-pitfalls-to-avoid)
 - [Helpful Tools and Resources](#helpful-tools-and-resources)
 - [Closing Notes](#closing-notes)
+
+</div>
 
 </div>
 

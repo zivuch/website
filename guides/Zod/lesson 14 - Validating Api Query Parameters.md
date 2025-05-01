@@ -17,6 +17,8 @@ taxonomy:
 
 <div class="toc" markdown="1">
 
+<div class="otp" markdown="1">
+
 ## On this Page
 
 - [The Problem](#the-problem)
@@ -25,6 +27,8 @@ taxonomy:
 - [Handling Optional Parameters](#handling-optional-parameters)
 - [Dealing with String Inputs](#dealing-with-string-inputs)
 - [Summary](#summary)
+
+</div>
 
 </div>
 

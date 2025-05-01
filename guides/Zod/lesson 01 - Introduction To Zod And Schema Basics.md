@@ -17,6 +17,8 @@ taxonomy:
 
 <div class="toc" markdown="1">
 
+<div class="otp" markdown="1">
+
 ## On this Page
 
 - [What is Zod?](#what-is-zod)
@@ -38,6 +40,8 @@ taxonomy:
 - [Lesson 03: Arrays, Enums, and Literal Types](./lesson-03-arrays-enums-and-literal-types)
 - [Lesson 04: Nested Objects and Schema Composition](./lesson-04-nested-objects-and-schema-composition)
 - [Lesson 05: Validation Methods, Error Handling, and Utilities](./lesson-05-validation-methods-error-handling-and-utilities)
+
+</div>
 
 </div>
 

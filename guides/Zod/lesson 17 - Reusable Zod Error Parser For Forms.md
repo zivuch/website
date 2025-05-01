@@ -17,6 +17,8 @@ taxonomy:
 
 <div class="toc" markdown="1">
 
+<div class="otp" markdown="1">
+
 ## On this Page
 
 - [Why Create a Reusable Error Parser?](#why-create-a-reusable-error-parser)
@@ -24,6 +26,8 @@ taxonomy:
 - [Using It in React Forms](#using-it-in-react-forms)
 - [Advanced: Handling Nested Keys](#advanced-handling-nested-keys)
 - [Summary](#summary)
+
+</div>
 
 </div>
 

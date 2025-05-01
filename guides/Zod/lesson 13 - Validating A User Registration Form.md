@@ -17,6 +17,8 @@ taxonomy:
 
 <div class="toc" markdown="1">
 
+<div class="otp" markdown="1">
+
 ## On this Page
 
 - [The Problem](#the-problem)
@@ -24,6 +26,8 @@ taxonomy:
 - [Validating Password Confirmation](#validating-password-confirmation)
 - [Handling and Displaying Errors](#handling-and-displaying-errors)
 - [Summary](#summary)
+
+</div>
 
 </div>
 

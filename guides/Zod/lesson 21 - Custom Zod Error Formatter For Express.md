@@ -17,6 +17,8 @@ taxonomy:
 
 <div class="toc" markdown="1">
 
+<div class="otp" markdown="1">
+
 ## On this Page
 
 - [Why Format Zod Errors?](#why-format-zod-errors)
@@ -25,6 +27,8 @@ taxonomy:
 - [Using It in Middleware](#using-it-in-middleware)
 - [Optional: Global Express Error Handler](#optional-global-express-error-handler)
 - [Summary](#summary)
+
+</div>
 
 </div>
 

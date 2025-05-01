@@ -18,6 +18,8 @@ taxonomy:
 
 <div class="toc" markdown="1">
 
+<div class="otp" markdown="1">
+
 ## On this Page
 
 - [The Problem](#the-problem)
@@ -26,6 +28,8 @@ taxonomy:
 - [Flattening Errors for Form Inputs](#flattening-errors-for-form-inputs)
 - [Custom Error Paths](#custom-error-paths)
 - [Summary](#summary)
+
+</div>
 
 </div>
 

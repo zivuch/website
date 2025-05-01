@@ -18,6 +18,8 @@ taxonomy:
 
 <div class="toc" markdown="1">
 
+<div class="otp" markdown="1">
+
 ## On this Page
 
 - [Why Async Validation?](#why-async-validation)
@@ -26,6 +28,8 @@ taxonomy:
 - [Using z.promise()](#using-zpromise)
 - [Caveats and Best Practices](#caveats-and-best-practices)
 - [Summary](#summary)
+
+</div>
 
 </div>
 

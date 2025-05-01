@@ -17,6 +17,8 @@ taxonomy:
 
 <div class="toc" markdown="1">
 
+<div class="otp" markdown="1">
+
 ## On this Page
 
 - [Why Share Schemas?](#why-share-schemas)
@@ -25,6 +27,8 @@ taxonomy:
 - [Example: User Registration](#example-user-registration)
 - [Tips for Schema Versioning](#tips-for-schema-versioning)
 - [Summary](#summary)
+
+</div>
 
 </div>
 

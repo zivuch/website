@@ -17,6 +17,8 @@ taxonomy:
 
 <div class="toc" markdown="1">
 
+<div class="otp" markdown="1">
+
 ## On this Page
 
 - [The Scenario](#the-scenario)
@@ -25,6 +27,8 @@ taxonomy:
 - [Validating Nested Metadata](#validating-nested-metadata)
 - [Optional Draft Logic with Refinement](#optional-draft-logic-with-refinement)
 - [Summary](#summary)
+
+</div>
 
 </div>
 

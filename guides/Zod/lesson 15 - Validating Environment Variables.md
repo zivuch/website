@@ -17,6 +17,8 @@ taxonomy:
 
 <div class="toc" markdown="1">
 
+<div class="otp" markdown="1">
+
 ## On this Page
 
 - [The Problem](#the-problem)
@@ -25,6 +27,8 @@ taxonomy:
 - [Type Inference and Access](#type-inference-and-access)
 - [Fail Fast on Misconfiguration](#fail-fast-on-misconfiguration)
 - [Summary](#summary)
+
+</div>
 
 </div>
 

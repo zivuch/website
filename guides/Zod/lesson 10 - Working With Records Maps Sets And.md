@@ -18,6 +18,8 @@ taxonomy:
 
 <div class="toc" markdown="1">
 
+<div class="otp" markdown="1">
+
 ## On this Page
 
 - [Using z.record()](#using-zrecord)
@@ -26,6 +28,8 @@ taxonomy:
 - [Creating Enums with z.enum()](#creating-enums-with-zenum)
 - [Using Native TypeScript Enums](#using-native-typescript-enums)
 - [Summary](#summary)
+
+</div>
 
 </div>
 

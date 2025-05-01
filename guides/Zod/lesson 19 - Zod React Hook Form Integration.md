@@ -17,6 +17,8 @@ taxonomy:
 
 <div class="toc" markdown="1">
 
+<div class="otp" markdown="1">
+
 ## On this Page
 
 - [Why Integrate Zod with React Hook Form?](#why-integrate-zod-with-react-hook-form)
@@ -25,6 +27,8 @@ taxonomy:
 - [Connecting Zod to React Hook Form](#connecting-zod-to-react-hook-form)
 - [Displaying Field Errors](#displaying-field-errors)
 - [Summary](#summary)
+
+</div>
 
 </div>
 
