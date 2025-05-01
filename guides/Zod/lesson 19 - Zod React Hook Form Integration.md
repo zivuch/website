@@ -68,7 +68,7 @@ export type LoginInput = z.infer<typeof LoginSchema>;
 
 ## Connecting Zod to React Hook Form
 
-```tsx
+```js
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { LoginSchema, LoginInput } from "@/schemas/login";
