@@ -28,6 +28,20 @@ taxonomy:
 
 </div>
 
+<div class="otg" markdown="1">
+
+## On this Guide
+
+- [Lesson 06: Schema Composition with Merge, Extend, Pick, and Omit](./lesson-06-schema-composition-with-merge-extend-pick)
+- [Lesson 07: Refinement, superRefine, and Custom Validators](./lesson-07-refinement-superrefine-and-custom-validators)
+- [Lesson 08: Discriminated Unions and Tagged Types](./lesson-08-discriminated-unions-and-tagged-types)
+- [Lesson 09: Transforming and Preprocessing Data](./lesson-09-transforming-and-preprocessing-data)
+- [Lesson 10: Working with Records, Maps, Sets, and Enums](./lesson-10-working-with-records-maps-sets-and)
+- [Lesson 11: Async Validation with Promises](./lesson-11-async-validation-with-promises)
+- [Lesson 12: Reusable Schemas Across Frontend and Backend](./lesson-12-reusable-schemas-across-frontend-and-backend)
+
+</div>
+
 <div class="guru-main" markdown="1">
 
 ## Why Share Schemas?

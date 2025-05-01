@@ -29,6 +29,18 @@ taxonomy:
 
 </div>
 
+<div class="otg" markdown="1">
+
+## On this Guide
+
+- [Lesson 01: Introduction to Zod and Schema Basics](./lesson-01-introduction-to-zod-and-schema-basics)
+- [Lesson 02: Optional Fields, Default Values, and Type Modifiers](./lesson-02-optional-fields-default-values-and-type)
+- [Lesson 03: Arrays, Enums, and Literal Types](./lesson-03-arrays-enums-and-literal-types)
+- [Lesson 04: Nested Objects and Schema Composition](./lesson-04-nested-objects-and-schema-composition)
+- [Lesson 05: Validation Methods, Error Handling, and Utilities](./lesson-05-validation-methods-error-handling-and-utilities)
+
+</div>
+
 <div class="guru-main" markdown="1">
 
 ## What is Zod? <a id="what-is-zod"></a>
