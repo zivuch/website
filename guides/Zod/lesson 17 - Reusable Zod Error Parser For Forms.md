@@ -29,8 +29,6 @@ taxonomy:
 
 </div>
 
-</div>
-
 <div class="otg" markdown="1">
 
 ## On this Guide
@@ -44,6 +42,8 @@ taxonomy:
 - [Lesson 21: Validating Express Requests with Zod](./lesson20-validating-express-requests-with-zod)
 - [Lesson 22: Custom Zod Error Formatter for Express APIs](./lesson-21-custom-zod-error-formatter-for-express)
 - [Lesson 20: Final Thoughts, Best Practices, and Resources](./lesson-22-final-thoughts-best-practices-and-resources)
+
+</div>
 
 </div>
 

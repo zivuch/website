@@ -152,6 +152,6 @@ Next up: **Lesson 8 – Discriminated Unions and Tagged Types**, a key tool for 
 
 ---
 
-*** Master the Code, Be the Guru! ***
+**_ Master the Code, Be the Guru! _**
 
 </div>

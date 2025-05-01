@@ -80,7 +80,7 @@ const UserSchema = z.object({
 Now if `age` is omitted, it defaults to `18`:
 
 ```ts
-UserSchema.parse({ name: "Bob" }); 
+UserSchema.parse({ name: "Bob" });
 // ➜ { name: 'Bob', age: 18 }
 ```
 
@@ -89,6 +89,7 @@ UserSchema.parse({ name: "Bob" });
 ## Nullable vs Optional
 
 Zod distinguishes between:
+
 - **optional** → the key may be missing
 - **nullable** → the key may exist, but be `null`
 
@@ -98,7 +99,7 @@ const schema = z.object({
 });
 
 schema.parse({ age: null }); // ✅
-schema.parse({});            // ❌ age is required
+schema.parse({}); // ❌ age is required
 ```
 
 You can combine both:
@@ -116,6 +117,7 @@ z.string().min(3).max(20).optional();
 ```
 
 That means:
+
 - The field must be a string
 - Minimum length: 3
 - Maximum length: 20
@@ -134,6 +136,6 @@ In the next lesson, we'll explore **arrays, enums, and literal types** with Zod.
 
 ---
 
-*** Master the Code, Be the Guru! ***
+**_ Master the Code, Be the Guru! _**
 
 </div>

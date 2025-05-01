@@ -30,11 +30,10 @@ taxonomy:
 
 </div>
 
-</div>
-
 <div class="otg" markdown="1">
 
 ## On this Guide
+
 - [Lesson 13: Validating a User Registration Form](./lesson-13-validating-a-user-registration-form)
 - [Lesson 14: Validating API Query Parameters](./lesson14-validating-api-query-parameters)
 - [Lesson 15: Validating Environment Variables](./lesson-15-validating-environment-variables)
@@ -45,6 +44,8 @@ taxonomy:
 - [Lesson 21: Validating Express Requests with Zod](./lesson20-validating-express-requests-with-zod)
 - [Lesson 22: Custom Zod Error Formatter for Express APIs](./lesson-21-custom-zod-error-formatter-for-express)
 - [Lesson 20: Final Thoughts, Best Practices, and Resources](./lesson-22-final-thoughts-best-practices-and-resources)
+
+</div>
 
 </div>
 
@@ -59,6 +60,7 @@ GET /search?term=react&page=2&sort=desc
 ```
 
 We want to:
+
 - Validate `term` is a non-empty string
 - Validate `page` is an optional positive integer
 - Validate `sort` is either `asc` or `desc` (default to `asc`)
@@ -111,10 +113,9 @@ Clean, typed, and error-safe. You can now guarantee your handler always gets val
 Zod makes it easy to work with optional values and defaults:
 
 ```ts
-page: z
-  .string()
+page: z.string()
   .optional()
-  .transform((val) => (val ? parseInt(val) : 1))
+  .transform((val) => (val ? parseInt(val) : 1));
 ```
 
 If the `page` parameter is missing, it will default to `1`.
@@ -129,8 +130,7 @@ If your schema expects numbers or booleans, **always use `preprocess` or `transf
 
 ```ts
 const schema = z.object({
-  show: z
-    .preprocess((val) => val === "true", z.boolean())
+  show: z.preprocess((val) => val === "true", z.boolean()),
 });
 ```
 
@@ -149,6 +149,6 @@ Next: **Lesson 15 – Validating Environment Variables with Zod**
 
 ---
 
-*** Master the Code, Be the Guru! ***
+**_ Master the Code, Be the Guru! _**
 
 </div>

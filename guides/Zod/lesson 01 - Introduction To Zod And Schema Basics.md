@@ -87,6 +87,7 @@ const UserSchema = z.object({
 ```
 
 This creates a schema that expects an object with:
+
 - `name`: a string
 - `age`: a number
 
@@ -150,6 +151,6 @@ Next lesson, we’ll cover **optional fields, default values**, and **basic type
 
 ---
 
-*** Master the Code, Be the Guru! ***
+**_ Master the Code, Be the Guru! _**
 
 </div>

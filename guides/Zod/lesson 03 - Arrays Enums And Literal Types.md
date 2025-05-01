@@ -89,7 +89,7 @@ RoleSchema.parse("manager"); // ❌ not part of enum
 This automatically infers the TypeScript union type:
 
 ```ts
-type Role = z.infer<typeof RoleSchema>; 
+type Role = z.infer<typeof RoleSchema>;
 // ➜ "admin" | "user" | "guest"
 ```
 
@@ -136,6 +136,6 @@ Next up, we’ll look at **working with nested objects and schema composition** 
 
 ---
 
-*** Master the Code, Be the Guru! ***
+**_ Master the Code, Be the Guru! _**
 
 </div>

@@ -70,9 +70,7 @@ All values must match the provided schema.
 ### Example: Nested object values
 
 ```ts
-const ScoreMap = z.record(
-  z.object({ score: z.number(), passed: z.boolean() })
-);
+const ScoreMap = z.record(z.object({ score: z.number(), passed: z.boolean() }));
 
 ScoreMap.parse({
   math: { score: 95, passed: true },
@@ -178,6 +176,6 @@ Next: **Lesson 11 – Zod and Async Validation with Promises**
 
 ---
 
-*** Master the Code, Be the Guru! ***
+**_ Master the Code, Be the Guru! _**
 
 </div>

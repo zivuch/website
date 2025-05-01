@@ -52,6 +52,7 @@ taxonomy:
 ## Why Schema Composition Matters
 
 In real-world projects, you often reuse and reshape your schemas:
+
 - Share a base schema across multiple variations
 - Exclude fields before exposing them in the frontend
 - Split logic between database, form validation, and API
@@ -143,6 +144,6 @@ Next up: **Lesson 7 – Refinement, superRefine, and Custom Validators** for pow
 
 ---
 
-*** Master the Code, Be the Guru! ***
+**_ Master the Code, Be the Guru! _**
 
 </div>

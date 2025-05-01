@@ -29,11 +29,10 @@ taxonomy:
 
 </div>
 
-</div>
-
 <div class="otg" markdown="1">
 
 ## On this Guide
+
 - [Lesson 13: Validating a User Registration Form](./lesson-13-validating-a-user-registration-form)
 - [Lesson 14: Validating API Query Parameters](./lesson14-validating-api-query-parameters)
 - [Lesson 15: Validating Environment Variables](./lesson-15-validating-environment-variables)
@@ -44,6 +43,8 @@ taxonomy:
 - [Lesson 21: Validating Express Requests with Zod](./lesson20-validating-express-requests-with-zod)
 - [Lesson 22: Custom Zod Error Formatter for Express APIs](./lesson-21-custom-zod-error-formatter-for-express)
 - [Lesson 20: Final Thoughts, Best Practices, and Resources](./lesson-22-final-thoughts-best-practices-and-resources)
+
+</div>
 
 </div>
 
@@ -64,9 +65,11 @@ If you're building modern TypeScript apps (React, Node.js, Express, etc.), Zod j
 ## Best Practices
 
 ### 1. 🧱 Define schemas close to where data enters your system
+
 Keep schemas next to API handlers, forms, or validators to reduce drift.
 
 ### 2. 💡 Use `.infer` to avoid duplicating types
+
 Don't write manual interfaces. Let Zod infer them:
 
 ```ts
@@ -74,12 +77,15 @@ type User = z.infer<typeof UserSchema>;
 ```
 
 ### 3. 📦 Share schemas across frontend and backend
+
 Use shared packages or folders to avoid inconsistent logic between layers.
 
 ### 4. 🧪 Use `.safeParse()` and `.format()` for error handling
+
 Always prefer safe validation for production and testing flows.
 
 ### 5. 🔄 Chain `.transform()` and `.refine()` for dynamic logic
+
 Sanitize inputs and enforce business rules in one place.
 
 ---
@@ -109,6 +115,7 @@ Sanitize inputs and enforce business rules in one place.
 🎉 You’ve now mastered Zod — from basic validations to advanced schema design and real-world integration.
 
 By using Zod, you:
+
 - Improve type safety
 - Catch bugs earlier
 - Ship faster with more confidence
@@ -122,6 +129,6 @@ Now go build something type-safe and awesome 🔐⚡
 
 ---
 
-*** Master the Code, Be the Guru! ***
+**_ Master the Code, Be the Guru! _**
 
 </div>

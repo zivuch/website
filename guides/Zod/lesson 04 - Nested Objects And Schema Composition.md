@@ -153,6 +153,6 @@ Next up, we’ll wrap up the basics with **Lesson 5: Validation Methods, Error H
 
 ---
 
-*** Master the Code, Be the Guru! ***
+**_ Master the Code, Be the Guru! _**
 
 </div>

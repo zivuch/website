@@ -75,6 +75,7 @@ const PetSchema = z.union([CatSchema, DogSchema]);
 ```
 
 It works, but it has downsides:
+
 - Harder to infer types
 - Manual narrowing needed
 
@@ -98,6 +99,7 @@ const PetSchema = z.discriminatedUnion("type", [
 ```
 
 Now Zod:
+
 - Narrows the schema **automatically**
 - Produces better TypeScript types
 - Validates based on the `type` key
@@ -141,9 +143,7 @@ type Pet = z.infer<typeof PetSchema>;
 TypeScript will now infer:
 
 ```ts
-type Pet =
-  | { type: "cat"; lives: number }
-  | { type: "dog"; breed: string };
+type Pet = { type: "cat"; lives: number } | { type: "dog"; breed: string };
 ```
 
 Perfect for frontend rendering or backend logic branching.
@@ -163,6 +163,6 @@ Next up: **Lesson 9 – Transforming and Preprocessing Data with Zod**, where we
 
 ---
 
-*** Master the Code, Be the Guru! ***
+**_ Master the Code, Be the Guru! _**
 
 </div>

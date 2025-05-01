@@ -69,12 +69,15 @@ It works just like `.refine()`, but returns a promise:
 const EmailSchema = z
   .string()
   .email()
-  .refineAsync(async (email) => {
-    const isTaken = await fakeCheckEmail(email);
-    return !isTaken;
-  }, {
-    message: "Email already in use",
-  });
+  .refineAsync(
+    async (email) => {
+      const isTaken = await fakeCheckEmail(email);
+      return !isTaken;
+    },
+    {
+      message: "Email already in use",
+    }
+  );
 
 async function fakeCheckEmail(email: string) {
   return email === "taken@example.com"; // Simulated DB check
@@ -97,15 +100,20 @@ const result = await EmailSchema.parseAsync("taken@example.com");
 You can validate an entire schema asynchronously:
 
 ```ts
-const RegisterSchema = z.object({
-  username: z.string(),
-  email: z.string().email(),
-}).refineAsync(async (data) => {
-  return !(await isUserTaken(data.username));
-}, {
-  message: "Username already taken",
-  path: ["username"],
-});
+const RegisterSchema = z
+  .object({
+    username: z.string(),
+    email: z.string().email(),
+  })
+  .refineAsync(
+    async (data) => {
+      return !(await isUserTaken(data.username));
+    },
+    {
+      message: "Username already taken",
+      path: ["username"],
+    }
+  );
 ```
 
 This lets you apply async logic **with context and specific field paths**.
@@ -114,7 +122,7 @@ This lets you apply async logic **with context and specific field paths**.
 
 ## Using `z.promise()`
 
-Sometimes your schema *returns* a promise. You can validate that too:
+Sometimes your schema _returns_ a promise. You can validate that too:
 
 ```ts
 const AsyncNumberSchema = z.promise(z.number());
@@ -148,6 +156,6 @@ Next: **Lesson 12 – Building Reusable Schemas Across Frontend and Backend**
 
 ---
 
-*** Master the Code, Be the Guru! ***
+**_ Master the Code, Be the Guru! _**
 
 </div>

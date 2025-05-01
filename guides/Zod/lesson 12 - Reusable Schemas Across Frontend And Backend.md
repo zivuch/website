@@ -30,8 +30,6 @@ taxonomy:
 
 </div>
 
-</div>
-
 <div class="otg" markdown="1">
 
 ## On this Guide
@@ -43,6 +41,8 @@ taxonomy:
 - [Lesson 10: Working with Records, Maps, Sets, and Enums](./lesson-10-working-with-records-maps-sets-and)
 - [Lesson 11: Async Validation with Promises](./lesson-11-async-validation-with-promises)
 - [Lesson 12: Reusable Schemas Across Frontend and Backend](./lesson-12-reusable-schemas-across-frontend-and-backend)
+
+</div>
 
 </div>
 

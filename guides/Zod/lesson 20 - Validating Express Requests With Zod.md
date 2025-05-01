@@ -31,11 +31,10 @@ taxonomy:
 
 </div>
 
-</div>
-
 <div class="otg" markdown="1">
 
 ## On this Guide
+
 - [Lesson 13: Validating a User Registration Form](./lesson-13-validating-a-user-registration-form)
 - [Lesson 14: Validating API Query Parameters](./lesson14-validating-api-query-parameters)
 - [Lesson 15: Validating Environment Variables](./lesson-15-validating-environment-variables)
@@ -49,6 +48,8 @@ taxonomy:
 
 </div>
 
+</div>
+
 <div class="guru-main" markdown="1">
 
 ## Why Use Zod in Express?
@@ -56,6 +57,7 @@ taxonomy:
 Express by default accepts any data in `req.body`, `req.query`, and `req.params` — no validation, no typing.
 
 **Zod fixes that** by:
+
 - Catching malformed requests
 - Providing clear error messages
 - Ensuring consistent structure
@@ -156,6 +158,6 @@ Want bonus content? In the next optional lesson, we can build a **Zod-powered Er
 
 ---
 
-*** Master the Code, Be the Guru! ***
+**_ Master the Code, Be the Guru! _**
 
 </div>

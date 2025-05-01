@@ -67,7 +67,7 @@ Use `.transform()` **after validation** to shape or derive new values.
 ```ts
 const schema = z.string().transform((val) => val.trim().toUpperCase());
 
-const result = schema.parse("  hello  "); 
+const result = schema.parse("  hello  ");
 // ➜ "HELLO"
 ```
 
@@ -76,7 +76,7 @@ You can also change the output type:
 ```ts
 const NumSchema = z.string().transform((val) => parseInt(val));
 
-type Result = z.infer<typeof NumSchema>; 
+type Result = z.infer<typeof NumSchema>;
 // Result is now `number`, not `string`
 ```
 
@@ -92,11 +92,12 @@ Example: Accept a number or a string and turn it into a number before validating
 const schema = z.preprocess((val) => Number(val), z.number().min(0));
 
 schema.parse("42"); // ✅ 42
-schema.parse(42);   // ✅ 42
+schema.parse(42); // ✅ 42
 schema.parse("abc"); // ❌ Not a number
 ```
 
 This is great for working with:
+
 - Query strings
 - Form data
 - Environment variables
@@ -105,12 +106,12 @@ This is great for working with:
 
 ## Differences Between `transform` and `preprocess`
 
-| Feature         | `.transform()`                     | `.preprocess()`                     |
-|----------------|-------------------------------------|-------------------------------------|
-| Runs **after** validation | ✅                              | ❌                              |
-| Runs **before** validation | ❌                              | ✅                              |
-| Can change output type     | ✅                              | ✅                              |
-| Use case                   | Reformat/derive                | Sanitize/parse raw input           |
+| Feature                    | `.transform()`  | `.preprocess()`          |
+| -------------------------- | --------------- | ------------------------ |
+| Runs **after** validation  | ✅              | ❌                       |
+| Runs **before** validation | ❌              | ✅                       |
+| Can change output type     | ✅              | ✅                       |
+| Use case                   | Reformat/derive | Sanitize/parse raw input |
 
 ---
 
@@ -160,6 +161,6 @@ Next: **Lesson 10 – Working with Records, Maps, Sets, and Enums in Zod**
 
 ---
 
-*** Master the Code, Be the Guru! ***
+**_ Master the Code, Be the Guru! _**
 
 </div>

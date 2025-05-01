@@ -59,7 +59,7 @@ You’ve seen both methods before, but let’s compare them clearly:
 ```ts
 const schema = z.string().min(3);
 schema.parse("abc"); // ✅
-schema.parse("a");   // ❌ throws ZodError
+schema.parse("a"); // ❌ throws ZodError
 ```
 
 ### `safeParse()`
@@ -100,10 +100,12 @@ The `.format()` method turns raw errors into a readable nested object structure 
 Need to validate logic that isn’t covered by Zod’s built-in checks? Use `.refine()`:
 
 ```ts
-const PasswordSchema = z.string().min(6).refine(
-  (val) => /[A-Z]/.test(val),
-  { message: "Must include at least one uppercase letter" }
-);
+const PasswordSchema = z
+  .string()
+  .min(6)
+  .refine((val) => /[A-Z]/.test(val), {
+    message: "Must include at least one uppercase letter",
+  });
 ```
 
 You can even access the full object when refining fields inside `z.object()` using `.superRefine()` (we’ll cover that in the advanced guide).
@@ -159,6 +161,6 @@ Next, we’ll dive into the **Advanced Guide**, where we cover schema compositio
 
 ---
 
-*** Master the Code, Be the Guru! ***
+**_ Master the Code, Be the Guru! _**
 
 </div>
