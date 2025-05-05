@@ -3,6 +3,7 @@ title: Testing Zustand Stores with React Testing Library
 menu_order: 16
 post_status: publish
 post_excerpt: Learn how to test Zustand stores and their interaction with React components using React Testing Library and Jest.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zustand

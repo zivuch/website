@@ -3,6 +3,7 @@ title: Persisting State to localStorage or sessionStorage
 menu_order: 10
 post_status: publish
 post_excerpt: Learn how to use Zustand’s persist middleware to store and rehydrate state using localStorage or sessionStorage.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zustand

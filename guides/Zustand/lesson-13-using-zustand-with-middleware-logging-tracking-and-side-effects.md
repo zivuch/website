@@ -1,5 +1,5 @@
 ---
-title: Using Zustand with Middleware: Logging, Tracking, and Side Effects
+title: Using Zustand with Middleware Logging, Tracking, and Side Effects
 menu_order: 13
 post_status: publish
 post_excerpt: Learn how to extend Zustand stores with custom middleware for logging actions, tracking state changes, and managing side effects.

@@ -3,6 +3,7 @@ title: Creating Read-Only or Transient State Stores
 menu_order: 15
 post_status: publish
 post_excerpt: Learn how to define state stores that are either temporary or strictly read-only for better architecture and control.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zustand

@@ -3,6 +3,7 @@ title: Using Devtools Middleware for Debugging
 menu_order: 11
 post_status: publish
 post_excerpt: Learn how to connect your Zustand store to Redux DevTools and gain insight into state changes and actions.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zustand

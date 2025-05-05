@@ -3,6 +3,7 @@ title: Using Zustand with Immer for Immutable Updates
 menu_order: 12
 post_status: publish
 post_excerpt: Learn how to use Zustand with Immer to write clean, immutable state updates using mutable-looking code.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zustand
