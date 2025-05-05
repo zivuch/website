@@ -3,6 +3,7 @@ title: Creating Your First Store with TypeScript
 menu_order: 2
 post_status: publish
 post_excerpt: Learn how to define a strongly typed Zustand store and access it safely in React using TypeScript.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zustand

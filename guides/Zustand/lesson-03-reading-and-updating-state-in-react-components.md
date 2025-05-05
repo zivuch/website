@@ -3,6 +3,7 @@ title: Reading and Updating State in React Components
 menu_order: 3
 post_status: publish
 post_excerpt: Learn how to read state, trigger updates, and structure Zustand hooks inside your React components.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zustand

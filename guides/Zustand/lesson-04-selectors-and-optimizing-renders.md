@@ -3,6 +3,7 @@ title: Selectors and Optimizing Renders
 menu_order: 4
 post_status: publish
 post_excerpt: Learn how to write efficient selectors in Zustand and prevent unnecessary component re-renders.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zustand

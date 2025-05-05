@@ -3,6 +3,7 @@ title: Introduction to Zustand and Store Basics
 menu_order: 1
 post_status: publish
 post_excerpt: Learn what Zustand is, why it's useful, and how to set up your first store in under a minute.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - zustand

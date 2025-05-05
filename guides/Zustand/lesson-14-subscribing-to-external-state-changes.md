@@ -1,14 +1,17 @@
-# Lesson 14
-
-Content missing.---
+---
 title: Subscribing to External State Changes
 menu_order: 14
 post_status: publish
 post_excerpt: Learn how to subscribe directly to Zustand store changes outside of React components for side effects or external sync.
 taxonomy:
-category: - zustand - Advanced Guide to Zustand
-post_tag: - zustand - subscriptions - external state - effects
-
+  category:
+    - zustand
+    - Advanced Guide to Zustand
+  post_tag:
+    - zustand
+    - subscriptions
+    - external state
+    - effects
 ---
 
 <div class="toc" markdown="1">
