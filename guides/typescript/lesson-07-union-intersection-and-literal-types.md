@@ -3,6 +3,7 @@ title: Union Intersection and Literal Types
 menu_order: 7
 post_status: publish
 post_excerpt: Learn how to combine types in TypeScript using union, intersection, and literal values to model complex logic safely.
+featured_image: _images/bg-p.png
 taxonomy:
   category:
     - typescript
