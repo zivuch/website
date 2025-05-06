@@ -2,7 +2,7 @@
 title: Basic Types and Type Annotations
 menu_order: 3
 post_status: publish
-post_excerpt: Learn how to declare variables using TypeScript's built-in types: string, number, boolean, arrays, and more.
+post_excerpt: Learn how to declare variables using TypeScript's built-in types string, number, boolean, arrays, and more.
 featured_image: _images/bg-p.png
 taxonomy:
   category:
