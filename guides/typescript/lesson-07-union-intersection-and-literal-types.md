@@ -1,5 +1,5 @@
 ---
-title: Union, Intersection, and Literal Types
+title: Union Intersection and Literal Types
 menu_order: 7
 post_status: publish
 post_excerpt: <!-- Add short expert summary here -->

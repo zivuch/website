@@ -1,5 +1,5 @@
 ---
-title: Objects, Interfaces, and Optional Properties
+title: Objects Interfaces and Optional Properties
 menu_order: 5
 post_status: publish
 post_excerpt: Learn how to type objects using interfaces, add optional and readonly properties, and build consistent object structures.
