@@ -1,5 +1,5 @@
 ---
-title: Using TypeScript with Node.js and Express
+title: Using TypeScript with NodeJS and Express
 menu_order: 22
 post_status: publish
 post_excerpt: <!-- Add short expert summary here -->

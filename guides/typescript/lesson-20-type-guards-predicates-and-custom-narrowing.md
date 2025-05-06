@@ -1,5 +1,5 @@
 ---
-title: Type Guards, Predicates, and Custom Narrowing
+title: Type Guards Predicates and Custom Narrowing
 menu_order: 20
 post_status: publish
 post_excerpt: <!-- Add short expert summary here -->
