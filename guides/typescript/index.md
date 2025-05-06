@@ -20,6 +20,8 @@ taxonomy:
 
 <div class="guru-cat-main" markdown="1">
 
+<div class="guru-cat-in" markdown="1">
+
 ## Basic Guide to TypeScript
 
 - [Lesson 01: What is TypeScript and Why Use It](./lesson-01-what-is-typescript-and-why-use-it)
@@ -32,6 +34,10 @@ taxonomy:
 - [Lesson 08: Type Aliases vs Interfaces](./lesson-08-type-aliases-vs-interfaces)
 - [Lesson 09: Working with Enums](./lesson-09-working-with-enums)
 - [Lesson 10: Type Assertions and Type Casting](./lesson-10-type-assertions-and-type-casting)
+
+</div>
+
+<div class="guru-cat-in" markdown="1">
 
 ## Advanced Guide to TypeScript
 
@@ -46,6 +52,10 @@ taxonomy:
 - [Lesson 19: Advanced Types with Function Overloading](./lesson-19-advanced-types-with-function-overloading)
 - [Lesson 20: Type Guards, Predicates, and Custom Narrowing](./lesson-20-type-guards,-predicates,-and-custom-narrowing)
 
+</div>
+
+<div class="guru-cat-in" markdown="1">
+
 ## Practical Guide to TypeScript
 
 - [Lesson 21: Using TypeScript in a React Project](./lesson-21-using-typescript-in-a-react-project)
@@ -58,5 +68,7 @@ taxonomy:
 - [Lesson 28: Testing TypeScript Code with Vitest and Jest](./lesson-28-testing-typescript-code-with-vitest-and-jest)
 - [Lesson 29: Improving DX with tsconfig and Path Aliases](./lesson-29-improving-dx-with-tsconfig-and-path-aliases)
 - [Lesson 30: TypeScript Tips, Myths, and Best Practices](./lesson-30-typescript-tips,-myths,-and-best-practices)
+
+</div>
 
 </div>
