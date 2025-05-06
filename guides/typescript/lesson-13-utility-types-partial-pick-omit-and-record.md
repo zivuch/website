@@ -1,5 +1,5 @@
 ---
-title: Utility Types: Partial, Pick, Omit, and Record
+title: Utility Types: Partial Pick Omit and Record
 menu_order: 13
 post_status: publish
 post_excerpt: <!-- Add short expert summary here -->
