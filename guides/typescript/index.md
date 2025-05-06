@@ -1,6 +1,6 @@
 ---
 title: TypeScript Guide
-menu_order: 0
+menu_order: 1
 post_status: publish
 post_excerpt: A complete, modern, and practical TypeScript guide split into Basic, Advanced, and Practical sections with examples and clear lessons.
 featured_image: _images/bg-p.png

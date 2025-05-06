@@ -55,22 +55,24 @@ taxonomy:
 
 ## TypeScript vs JavaScript
 
-| Feature           | JavaScript                  | TypeScript                        |
-|------------------|-----------------------------|-----------------------------------|
-| Typing           | Dynamic                     | Static (with type inference)      |
-| Compile-time checks | ❌                        | ✅ Type errors caught early       |
-| Tooling          | Good                        | Excellent with rich IntelliSense |
-| Code refactoring | Manual                      | Safe and assisted by types       |
-| Learning curve   | Beginner-friendly           | Steeper but scalable              |
+| Feature             | JavaScript        | TypeScript                       |
+| ------------------- | ----------------- | -------------------------------- |
+| Typing              | Dynamic           | Static (with type inference)     |
+| Compile-time checks | ❌                | ✅ Type errors caught early      |
+| Tooling             | Good              | Excellent with rich IntelliSense |
+| Code refactoring    | Manual            | Safe and assisted by types       |
+| Learning curve      | Beginner-friendly | Steeper but scalable             |
 
 ---
 
 ## Benefits of Using TypeScript
 
-### ✅ Catch Errors Early
+### Catch Errors Early
+
 TypeScript reports bugs **before you even run your code**.
 
-### 🧠 Self-Documenting Code
+### Self-Documenting Code
+
 Type annotations make code easier to understand and maintain.
 
 ```ts
@@ -79,10 +81,12 @@ function greet(name: string): string {
 }
 ```
 
-### 🔧 Better Tooling
+### Better Tooling
+
 Get auto-complete, jump-to-definition, and safe refactors in editors like VS Code.
 
-### 🌍 Type-Safe Collaboration
+### Type-Safe Collaboration
+
 Makes large-scale collaboration across teams smoother and safer.
 
 ---
@@ -90,17 +94,19 @@ Makes large-scale collaboration across teams smoother and safer.
 ## When (Not) to Use TypeScript
 
 ### You should use TypeScript when:
+
 - You’re building a **medium to large** application
 - You want to **enforce contracts** in APIs and components
 - You work in a **team environment**
 - You want **type safety with JavaScript flexibility**
 
 ### You might avoid it if:
+
 - You’re building a **very small script or MVP**
 - Your team has **no prior TypeScript experience**
 - You have **tight deadlines** and minimal type benefits
 
-> 💡 Even in these cases, using JSDoc with `// @ts-check` can bring partial TypeScript benefits.
+> Even in these cases, using JSDoc with `// @ts-check` can bring partial TypeScript benefits.
 
 ---
 
