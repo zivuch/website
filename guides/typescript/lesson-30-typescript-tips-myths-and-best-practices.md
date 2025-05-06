@@ -1,5 +1,5 @@
 ---
-title: TypeScript Tips, Myths, and Best Practices
+title: TypeScript Tips Myths and Best Practices
 menu_order: 30
 post_status: publish
 post_excerpt: <!-- Add short expert summary here -->
